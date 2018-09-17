@@ -1814,7 +1814,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.NORMAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORMAL.NAME"
 msgid "Normal"
-msgstr "Звичайно"
+msgstr "В нормі"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORMAL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORMAL.TOOLTIP"
@@ -3418,6 +3418,8 @@ msgid ""
 "Bunker tiles can be used to build strong shelters in otherwise dangerous "
 "environments."
 msgstr ""
+"Блоки бункера можуть бути використані для побудови міцного сховища в "
+"небезпечному середовищі"
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT"
@@ -3426,16 +3428,21 @@ msgid ""
 "\n"
 "Can withstand extreme pressures and impacts."
 msgstr ""
+"Використовується, як блок підлоги або стіни для будівництва кімнат.\n"
+"\n"
+"Може витримати надзвичайний тиск та удари."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.NAME"
 msgid "<link=\"BUNKERTILE\">Bunker Tile</link>"
-msgstr ""
+msgstr "<link=\"BUNKERTILE\">Блок бункера</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BURNER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.DESC"
 msgid "Burners reach incredible temperatures and can quickly melt large areas."
 msgstr ""
+"Пальники досягають неймовірних температур і можуть швидко розтопити великі "
+"території."
 
 #. STRINGS.BUILDINGS.PREFABS.BURNER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.EFFECT"
@@ -3443,16 +3450,18 @@ msgid ""
 "Produces a searing <link=\"HEAT\">Heat Jet</link> using liquid <link="
 "\"CRUDEOIL\">Crude Oil</link>."
 msgstr ""
+"Створює пекучий <link=\"HEAT\">тепловий струмінь</link>, використовуючи "
+"рідку <link=\"CRUDEOIL\">сиру нафту</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.BURNER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.NAME"
 msgid "<link=\"BURNER\">Burner</link>"
-msgstr ""
+msgstr "<link=\"BURNER\">Пальник</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.AVERAGEQUALITYNAME"
 msgid "Mediocre Painting"
-msgstr ""
+msgstr "Посередня картина"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.DESC"
@@ -3460,6 +3469,8 @@ msgid ""
 "Once built, a Duplicant can paint a blank canvas to produce a decorative "
 "painting."
 msgstr ""
+"Щойно збудується, дублікант може малювати на чистому полотні і створити "
+"декоративну картину."
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT"
@@ -3469,21 +3480,25 @@ msgid ""
 "\n"
 "Must be painted by a Duplicant."
 msgstr ""
+"Збільшує <link=\"DECOR\">декор</link> та знижує <link=\"STRESS\">стрес</"
+"link>.\n"
+"\n"
+"Має бути розмальоване дублікантом."
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.EXCELLENTQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.EXCELLENTQUALITYNAME"
 msgid "Masterpiece"
-msgstr ""
+msgstr "Шедевр"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.NAME"
 msgid "<link=\"CANVAS\">Blank Canvas</link>"
-msgstr ""
+msgstr "<link=\"CANVAS\">Чисте полотно</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.POORQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.POORQUALITYNAME"
 msgid "Crude Painting"
-msgstr ""
+msgstr "Груба робота"
 
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC"
@@ -3491,6 +3506,8 @@ msgid ""
 "Duplicants will fill cargo bays with whatever resources they find during "
 "their space missions."
 msgstr ""
+"Дубліканти будуть заповнювати вантажні відсіки ресурсами, які вони знайдуть "
+"під час космічної місії."
 
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.EFFECT"
@@ -3500,27 +3517,34 @@ msgid ""
 "\n"
 "Stored resources become available to the colony upon the rocket's return."
 msgstr ""
+"Дозволяє дублікантам зберігати будь-які <link=\"ELEMENTSSOLID\">тверді</"
+"link> ресурси, знайдені під час космічної місії.\n"
+"\n"
+"Збережені ресурси будуть доступні для колонії після повернення ракети."
 
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.NAME"
 msgid "<link=\"CARGOBAY\">Cargo Bay</link>"
-msgstr ""
+msgstr "<link=\"CARGOBAY\">Вантажний відсік</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.DESC"
 msgid "Light reduces Duplicant stress and is required to grow certain plants."
 msgstr ""
+"Світло знижує стрес дубліканта і воно необхідне для росту певних рослин."
 
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.EFFECT"
 msgid ""
 "Provides <link=\"LIGHT\">Light</link> when <link=\"POWER\">Powered</link>."
 msgstr ""
+"Випромінює <link=\"LIGHT\">світло</link>, коли підключений до джерела <link="
+"\"POWER\">енергії</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.NAME"
 msgid "<link=\"CEILINGLIGHT\">Ceiling Light</link>"
-msgstr ""
+msgstr "<link=\"CEILINGLIGHT\">Світильник</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.DESC"
@@ -3528,6 +3552,8 @@ msgid ""
 "Checkpoints can be connected to automated sensors to determine when it is "
 "safe to enter."
 msgstr ""
+"Контрольно-пропускні пункти можуть бути під'єднані до автоматизованих "
+"сенсорів для визначення, коли проходити безпечно."
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.EFFECT"
@@ -3536,16 +3562,20 @@ msgid ""
 "\n"
 "Prevents Duplicants from passing when on <link=\"LOGIC\">Standby</link>."
 msgstr ""
+"Дозволяє Дублікантам проходити, коли <link=\"LOGIC\">активний</link>.\n"
+"\n"
+"Перешкоджає проходженню дублікантів, коли в <link=\"LOGIC\">режимі "
+"очікування</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_DESC"
 msgid "Duplicant Stop/Go"
-msgstr ""
+msgstr "Дублікант стій/йди"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.NAME"
 msgid "<link=\"CHECKPOINT\">Duplicant Checkpoint</link>"
-msgstr ""
+msgstr "<link=\"CHECKPOINT\">Контрольно-пропускний пункт дублікантів</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.DESC"
@@ -3553,6 +3583,8 @@ msgid ""
 "A textile loom can be used to spin Reed Fiber into wearable Duplicant "
 "clothing."
 msgstr ""
+"Ткацький верстак може бути використаний для прядіння волокон очерету в "
+"придатний для дублікантів одяг."
 
 #. STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.EFFECT"
@@ -3561,11 +3593,14 @@ msgid ""
 "\n"
 "Duplicants will not fabricate items unless recipes are queued."
 msgstr ""
+"Дублікант-кравець шиє <link=\"EQUIPMENT\">одяг</link>.\n"
+"\n"
+"Дубліканти не виробляють предмети, якщо рецепти не в черзі."
 
 #. STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.NAME"
 msgid "<link=\"CLOTHINGFABRICATOR\">Textile Loom</link>"
-msgstr ""
+msgstr "<link=\"CLOTHINGFABRICATOR\">Ткацький верстат</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.DESC"
@@ -3573,6 +3608,8 @@ msgid ""
 "Carbon skimmers remove large amounts of carbon dioxide, but produce no "
 "breathable air."
 msgstr ""
+"Вуглецеві сепаратори прибирають велику кількість двоокису вуглецю, але "
+"виробляють не придатне для дихання повітря."
 
 #. STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.EFFECT"
@@ -3580,11 +3617,13 @@ msgid ""
 "Uses <link=\"WATER\">Water</link> to filter <link=\"CARBONDIOXIDE\">Carbon "
 "Dioxide</link> from the air."
 msgstr ""
+"Використовує <link=\"WATER\">воду</link> для фільтрування <link="
+"\"CARBONDIOXIDE\">двоокису вуглецю</link> з повітря."
 
 #. STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.NAME"
 msgid "<link=\"CO2SCRUBBER\">Carbon Skimmer</link>"
-msgstr ""
+msgstr "<link=\"CO2SCRUBBER\">Вуглецевий сепаратор</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.DESC"
@@ -3592,6 +3631,8 @@ msgid ""
 "Networks of many scanners will detect meteors more efficiently than one "
 "scanner alone."
 msgstr ""
+"Мережа з багатьої сканерів буде виявляти метеорити ефективніше, ніж один "
+"самонтій сканер."
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT"
@@ -3599,11 +3640,13 @@ msgid ""
 "Sends an <link=\"LOGIC\">Active Signal</link> to its logic circuit when it "
 "detects incoming meteorite showers."
 msgstr ""
+"Надсилає <link=\"LOGIC\">активуючий сигнал</link> до його логічної схеми, "
+"коли виявляє наближення метеоритної зливи."
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME"
 msgid "<link=\"COMETDETECTOR\">Space Scanner</link>"
-msgstr ""
+msgstr "<link=\"COMETDETECTOR\">Космосканер</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.DESC"
@@ -3611,6 +3654,8 @@ msgid ""
 "At least one astronaut must be assigned to the command module to pilot a "
 "rocket."
 msgstr ""
+"Принаймні один космонавт повинен бути призначеним в космічній капсулі для "
+"пілотування ракетою."
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT"
@@ -3620,11 +3665,16 @@ msgid ""
 "\n"
 "A Command Capsule must be the last module installed at the top of a rocket."
 msgstr ""
+"Містить пасажирські сидіння для дублікантів-<link=\"ASTRONAUT\">космонавтів</"
+"link>.\n"
+"\n"
+"Командна капсула повинна бути останнім модулем, встановленим в на носі "
+"ракети."
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.NAME"
 msgid "<link=\"COMMANDMODULE\">Command Capsule</link>"
-msgstr ""
+msgstr "<link=\"COMMANDMODULE\">Командна капсула</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.DESC"
@@ -3632,6 +3682,8 @@ msgid ""
 "Composts safely deal with biological waste and help fertilize domestic "
 "plants."
 msgstr ""
+"Компости надійно справляються з біологічними відходами та допомагають "
+"удобрювати домашні рослини."
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.EFFECT"
@@ -3639,21 +3691,23 @@ msgid ""
 "Reduces <link=\"TOXICSAND\">Polluted Dirt</link> and other compostables down "
 "into <link=\"DIRT\">Dirt</link>."
 msgstr ""
+"Перетворює <link=\"TOXICSAND\">забруднений ґрунт</link> та інші "
+"компостування в <link=\"DIRT\">ґрунт</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.NAME"
 msgid "<link=\"COMPOST\">Compost</link>"
-msgstr ""
+msgstr "<link=\"COMPOST\">Компост</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.NAME"
 msgid "Marked for Emptying"
-msgstr ""
+msgstr "Помічено для спорожнення"
 
 #. STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP"
 msgid "Awaiting a Plumber to clear this pipe"
-msgstr ""
+msgstr "Очікується сантехнік для очищення цієї труби"
 
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.DESC"
@@ -3661,6 +3715,8 @@ msgid ""
 "Proper cooking eliminates foodborne disease and produces tasty, stress-"
 "relieving meals."
 msgstr ""
+"Належне приготування прибирає хвороби харчового походження і дає смачну їжу, "
+"що зменшуює стрес."
 
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.EFFECT"
@@ -3669,18 +3725,21 @@ msgid ""
 "\n"
 "Duplicants will not fabricate items unless recipes are queued."
 msgstr ""
+"Приготування більш різноманітної <link=\"FOOD\">їжі</link>.\n"
+"\n"
+"Дубліканти не виробляють предмети, якщо рецепти не в черзі."
 
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.NAME"
 msgid "<link=\"COOKINGSTATION\">Electric Grill</link>"
-msgstr ""
+msgstr "<link=\"COOKINGSTATION\">Електричний гриль</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.DESC"
 msgid ""
 "Duplicants automatically bring captured critters to these relocation points "
 "for release."
-msgstr ""
+msgstr "Дубліканти автоматично переносять впійманих тварин в точки випускання."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT"
@@ -3689,11 +3748,14 @@ msgid ""
 "\n"
 "Can be used multiple times."
 msgstr ""
+"Повертає спійманих тварин назад у світ.\n"
+"\n"
+"Може бути використана декілька разів."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME"
 msgid "<link=\"CREATUREDELIVERYPOINT\">Critter Drop-Off</link>"
-msgstr ""
+msgstr "<link=\"CREATUREDELIVERYPOINT\">Звільнювач тварин</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.DESC"
@@ -3701,21 +3763,23 @@ msgid ""
 "Critters tend to stay close to their food source and will wander less when "
 "given a Feeder."
 msgstr ""
+"Тварини, як правило, залишаються поруч з їх джерелом їжі та будуть менше "
+"блукати, коли отримають годівницю."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT"
 msgid "Automatically dispenses food for hungry critters."
-msgstr ""
+msgstr "Автоматично видає їжу голодним тваринам."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.NAME"
 msgid "<link=\"CREATUREFEEDER\">Critter Feeder</link>"
-msgstr ""
+msgstr "<link=\"CREATUREFEEDER\">Годівниця</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC"
 msgid "Traps cannot catch flying critters."
-msgstr ""
+msgstr "Пастки не можуть спіймати літаючих тварин."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT"
@@ -3724,31 +3788,35 @@ msgid ""
 "\n"
 "Single use."
 msgstr ""
+"Захоплює живу тварину для транспортування.\n"
+"\n"
+"Одноразова."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME"
 msgid "<link=\"CREATURETRAP\">Critter Trap</link>"
-msgstr ""
+msgstr "<link=\"CREATURETRAP\">Пастка для тварин</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC"
 msgid "Generates infinite testing power"
-msgstr ""
+msgstr "Генерує нескінченну енергію для тестування"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.EFFECT"
 msgid "Runs on coffee"
-msgstr ""
+msgstr "Працює на каві"
 
+# DEV = developer
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME"
 msgid "<link=\"DEVGENERATOR\">DEV Generator</link>"
-msgstr ""
+msgstr "<link=\"DEVGENERATOR\">Генератор для розробників</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DININGTABLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DININGTABLE.DESC"
 msgid "Duplicants prefer to dine at a table, rather than eat off the floor."
-msgstr ""
+msgstr "Дубліканти надають перевагу їжі за столом, а не їжі з підлоги."
 
 #. STRINGS.BUILDINGS.PREFABS.DININGTABLE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DININGTABLE.EFFECT"
@@ -3757,11 +3825,15 @@ msgid ""
 "\n"
 "Duplicants will automatically eat at their assigned table when hungry."
 msgstr ""
+"Дає місце для їжі одному дубліканту.\n"
+"\n"
+"Дубліканти будуть автоматично їсти за своїми поміченими столами, коли "
+"зголодніють."
 
 #. STRINGS.BUILDINGS.PREFABS.DININGTABLE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DININGTABLE.NAME"
 msgid "<link=\"DININGTABLE\">Mess Table</link>"
-msgstr ""
+msgstr "<link=\"DININGTABLE\">Обідній стіл</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.DESC"
@@ -3769,6 +3841,8 @@ msgid ""
 "Channels move more volume than pumps and require no power, but need "
 "sufficient pressure to function."
 msgstr ""
+"Канали переміщують більше рідини, ніж насоси та не потребують енергії, але "
+"потребують достатнього тиску для роботи."
 
 #. STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.EFFECT"
@@ -3777,16 +3851,19 @@ msgid ""
 "\n"
 "Can be used as floor tile and rotated before construction."
 msgstr ""
+"Спрямований на переміщення великої кількості рідини крізь канал\n"
+"\n"
+"Може бути використаний як блок підлоги і бути повернутим до будівництва."
 
 #. STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.NAME"
 msgid "<link=\"DIRECTIONALWORLDPUMPLIQUID\">Liquid Channel</link>"
-msgstr ""
+msgstr "<link=\"DIRECTIONALWORLDPUMPLIQUID\">Рідинний канал</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.DESC"
 msgid "Gets hot and steamy."
-msgstr ""
+msgstr "Виділяє тепло і пару."
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT"
@@ -3795,51 +3872,54 @@ msgid ""
 "into <link=\"STEAM\">Steam</link> and <link=\"TOXICSAND\">Polluted Dirt</"
 "link>"
 msgstr ""
+"Розділяє будь-яку <link=\"DIRTYWATER\">забруднену воду</link> яка проходить "
+"через неї на <link=\"STEAM\">пару</link> та <link=\"TOXICSAND\">забруднений "
+"ґрунт</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME"
 msgid "<link=\"DISTILLATIONCOLUMN\">Distillation Column</link>"
-msgstr ""
+msgstr "<link=\"DISTILLATIONCOLUMN\">Дистиляційна колона</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.ABOVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.ABOVE"
 msgid "above"
-msgstr ""
+msgstr "над"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.BELOW
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.BELOW"
 msgid "below"
-msgstr ""
+msgstr "під"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.AUTO.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.AUTO.NAME"
 msgid "Auto"
-msgstr ""
+msgstr "Автомат"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.AUTO.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.AUTO.TOOLTIP"
 msgid "Duplicants open and close this door as needed"
-msgstr ""
+msgstr "Дубліканти відчиняють та зачиняють ці двері за потреби"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.CLOSE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.CLOSE.NAME"
 msgid "Lock"
-msgstr ""
+msgstr "Зачинено"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.CLOSE.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.CLOSE.TOOLTIP"
 msgid "Nothing may pass through"
-msgstr ""
+msgstr "Ніхто не може пройти"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.OPEN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.OPEN.NAME"
 msgid "Open"
-msgstr ""
+msgstr "Відчинено"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.OPEN.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.CONTROL_STATE.OPEN.TOOLTIP"
 msgid "This door will remain open"
-msgstr ""
+msgstr "Ці двері залишаться відчиненими"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.DESC"
@@ -3847,6 +3927,8 @@ msgid ""
 "Door controls can be used to prevent Duplicants from entering restricted "
 "areas."
 msgstr ""
+"Контролювання дверей може бути використаний для запобігання проникнення "
+"дублікантів до заборонених зон."
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.EFFECT"
@@ -3858,41 +3940,47 @@ msgid ""
 "\n"
 "Wild critters cannot pass through doors."
 msgstr ""
+"Обмежує зону, не блокуючи потік <link=\"ELEMENTSLIQUID\">рідини</link> чи "
+"<link=\"ELEMENTSGAS\">газу</link>.\n"
+"\n"
+"Встановіть дублікантам дозволи доступу для обмеження зони.\n"
+"\n"
+"Дикі тварини не можуть проходити крізь двері."
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LEFT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LEFT"
 msgid "on left"
-msgstr ""
+msgstr "ліворуч"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_PORT_DESC"
 msgid "Open/Close"
-msgstr ""
+msgstr "Відчинено/Зачинено"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.NAME"
 msgid "<link=\"DOOR\">Pneumatic Door</link>"
-msgstr ""
+msgstr "<link=\"DOOR\">Пневматичні двері</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED"
 msgid "Atmo Suit not required {0}"
-msgstr ""
+msgstr "Атмо-костюм не потрібен {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED"
 msgid "Atmo Suit required {0}"
-msgstr ""
+msgstr "Побрібет атмо-костюм {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT"
 msgid "on right"
-msgstr ""
+msgstr "праворуч"
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC"
 msgid "Raw eggs are an ingredient in some high quality food recipes."
-msgstr ""
+msgstr "Сирі яйця є інгредієнтами для якогось високоякісного рецепту."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT"
@@ -3901,21 +3989,24 @@ msgid ""
 "\n"
 "Cracked Eggs cannot hatch."
 msgstr ""
+"Перетворює запліднені яйця тварин в кулінарні інгредієнти.\n"
+"\n"
+"Розбиті яйця не можуть вилупитись."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.NAME"
 msgid "<link=\"EGGCRACKER\">Egg Cracker</link>"
-msgstr ""
+msgstr "<link=\"EGGCRACKER\">Розколювач яєць</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.RECIPE_DESCRIPTION"
 msgid "Turns {0} into {1}."
-msgstr ""
+msgstr "Перетворює {0} в {1}."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.RESULT_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.RESULT_DESCRIPTION"
 msgid "Cracked {0}"
-msgstr ""
+msgstr "Розбито {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.DESC"
@@ -3923,6 +4014,8 @@ msgid ""
 "Incubators can maintain the ideal internal conditions for several species of "
 "critter egg."
 msgstr ""
+"Інкубатори можуть підтримувати ідеальні внутрішні умови для декількох "
+"різновидів яєць."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.EFFECT"
@@ -3932,16 +4025,22 @@ msgid ""
 "Assigned Duplicants must possess the <link=\"RANCHER\">Critter Wrangling</"
 "link> trait."
 msgstr ""
+"Висиджує яйця тварин до готовності вилуплення.\n"
+"\n"
+"Призначені дубліканти повинні володіти рисою \"<link=\"RANCHER\">пастух</"
+"link>\"."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.NAME"
 msgid "<link=\"EGGINCUBATOR\">Incubator</link>"
-msgstr ""
+msgstr "<link=\"EGGINCUBATOR\">Інкубатор</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.DESC"
 msgid "Water goes in one end, life sustaining oxygen comes out the other."
 msgstr ""
+"Вода заходить в один кінець, а кисень, який підтримує життя, виходить з "
+"іншого."
 
 #. STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.EFFECT"
@@ -3951,16 +4050,20 @@ msgid ""
 "\n"
 "Becomes idle when the area reaches maximum pressure capacity."
 msgstr ""
+"Перетворює <link=\"WATER\">воду</link> на <link=\"OXYGEN\">кисень</link> та "
+"<link=\"HYDROGEN\">водень</link>\n"
+"\n"
+"Починає простоювати, коли зона досягає максимального тиску."
 
 #. STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.NAME"
 msgid "<link=\"ELECTROLYZER\">Electrolyzer</link>"
-msgstr ""
+msgstr "<link=\"ELECTROLYZER\">Електролізер</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC"
 msgid "A shot of espresso helps Duplicants relax after a long day."
-msgstr ""
+msgstr "Чашечка еспресо допомагає дублікантам розслабитись після довгого дня."
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT"
@@ -3969,11 +4072,14 @@ msgid ""
 "\n"
 "Increases Duplicant Morale."
 msgstr ""
+"Освіжає дублікантів під час перерви.\n"
+"\n"
+"Збільшує бойовий дух дублікантів."
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.NAME"
 msgid "<link=\"ESPRESSOMACHINE\">Espresso Machine</link>"
-msgstr ""
+msgstr "<link=\"ESPRESSOMACHINE\">Кавомашина</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
@@ -3981,6 +4087,8 @@ msgid ""
 "Drywall can be used in conjunction with tiles to build airtight rooms on the "
 "surface."
 msgstr ""
+"Гіпсокартон може бути використаний в поєднанні з блоками для побудови "
+"герметичних кімнат на поверхні."
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
@@ -3989,11 +4097,14 @@ msgid ""
 "\n"
 "Builds an insulating backwall behind buildings."
 msgstr ""
+"Запобігає втраті газу чи рідини в космосі.\n"
+"\n"
+"Створює захисну стіну позаду споруд."
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME"
 msgid "<link=\"EXTERIORWALL\">Drywall</link>"
-msgstr ""
+msgstr "<link=\"EXTERIORWALL\">Гіпсокартон</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC"
@@ -4003,17 +4114,18 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.EFFECT"
 msgid "A tall, thin window."
-msgstr ""
+msgstr "Високе, тонке вікно."
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME"
 msgid "<link=\"\">Window</link>"
-msgstr ""
+msgstr "<link=\"\">Вікно</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC"
 msgid "This station only has an effect on crops grown within the same room."
 msgstr ""
+"Ця станція впливає тільки на культури, вирощені в межах цієї ж кімнати."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT"
@@ -4026,11 +4138,16 @@ msgid ""
 "\n"
 "This building is a necessary component of the Greenhouse room."
 msgstr ""
+"Виготовляє мікроелементне добриво для збільшення швидкості росту <link="
+"\"PLANTS\">рослин</link>.\n"
+"\n"
+"Призначені дубліканти мають володіти рисою \"<link=\"FARMER\">збирач врожаю</"
+"link>\""
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME"
 msgid "<link=\"FARMSTATION\">Farm Station</link>"
-msgstr ""
+msgstr "<link=\"FARMSTATION\">Станція фермера</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC"
@@ -4038,6 +4155,8 @@ msgid ""
 "Duplicants can deliver fertilizer and liquids to farm tiles, accelerating "
 "plant growth."
 msgstr ""
+"Дубліканти можуть доставляти добрива та рідини до блоків ферми, що "
+"прискорить ріст рослин."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.EFFECT"
@@ -4047,11 +4166,16 @@ msgid ""
 "\n"
 "Can be used as floor tile and rotated before construction."
 msgstr ""
+"Вирощує одну <link=\"PLANTS\">рослину</link> з <link=\"PLANTS\">насіння</"
+"link>.\n"
+"\n"
+"Може бути використаний як блок підлоги та може бути повернутим до "
+"будівництва."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.NAME"
 msgid "<link=\"FARMTILE\">Farm Tile</link>"
-msgstr ""
+msgstr "<link=\"FARMTILE\">Блок ферми</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.DESC"
@@ -4059,6 +4183,8 @@ msgid ""
 "Fertilizer Synthesizers convert polluted dirt into fertilizer for domestic "
 "plants."
 msgstr ""
+"Синтезатори добрив перетворюють забруднений ґрунт в добрива для свійських "
+"рослин."
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.EFFECT"
@@ -4066,11 +4192,13 @@ msgid ""
 "Uses <link=\"DIRTYWATER\">Polluted Water</link> to produce <link=\"FERTILIZER"
 "\">Fertilizer</link>."
 msgstr ""
+"Використовує <link=\"DIRTYWATER\">забруднену воду</link> для виробництва "
+"<link=\"FERTILIZER\">добрив</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.NAME"
 msgid "<link=\"FERTILIZERMAKER\">Fertilizer Synthesizer</link>"
-msgstr ""
+msgstr "<link=\"FERTILIZERMAKER\">Синтезатор добрив</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FIREPOLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.DESC"
@@ -4078,6 +4206,8 @@ msgid ""
 "Fire poles provide quick downward travel, while ladders provide better "
 "upward movement."
 msgstr ""
+"Пожежні стовпи забезпечують швидкий рух донизу, тоді як драбина забезпечує "
+"кращий рух догори."
 
 #. STRINGS.BUILDINGS.PREFABS.FIREPOLE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.EFFECT"
@@ -4086,17 +4216,20 @@ msgid ""
 "\n"
 "Significantly slows upward climbing."
 msgstr ""
+"Дозволяє дублікантам швидко спускатися.\n"
+"\n"
+"Значно уповільнює підйом вгору."
 
 #. STRINGS.BUILDINGS.PREFABS.FIREPOLE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.NAME"
 msgid "<link=\"FIREPOLE\">Fire Pole</link>"
-msgstr ""
+msgstr "<link=\"FIREPOLE\">Пожежний стовп</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.DESC"
 msgid ""
 "This building must be built above liquid to prevent fish from suffocating."
-msgstr ""
+msgstr "Ця будівля має бути побудована над рідиною, щоб риба не задихнулась."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT"
@@ -4105,16 +4238,19 @@ msgid ""
 "\n"
 "Can be used multiple times."
 msgstr ""
+"Повертає спійману рибу назад в світ.\n"
+"\n"
+"Може бути використаний декілька разів."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.NAME"
 msgid "<link=\"FISHDELIVERYPOINT\">Fish Release</link>"
-msgstr ""
+msgstr "<link=\"FISHDELIVERYPOINT\">Звільнювач риб</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.DESC"
 msgid "Build this feeder above a body of water to feed the fish within."
-msgstr ""
+msgstr "Будуйте цю годівницю над поверхнею води, щоб годувати рибу зовні."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT"
@@ -4123,16 +4259,19 @@ msgid ""
 "\n"
 "Dispenses once per day."
 msgstr ""
+"Автоматично видає збережену їжу в територію внизу.\n"
+"\n"
+"Видає один раз на день."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.NAME"
 msgid "<link=\"FISHFEEDER\">Fish Feeder</link>"
-msgstr ""
+msgstr "<link=\"FISHFEEDER\">Годівниця для риб</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.DESC"
 msgid "Trapped fish will automatically be bagged for transport."
-msgstr ""
+msgstr "Спіймана риба буде автоматично запакована для транспортування."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.EFFECT"
@@ -4141,28 +4280,33 @@ msgid ""
 "\n"
 "Single use."
 msgstr ""
+"Приваблює та ловить плаваючу рибу.\n"
+"\n"
+"Одноразова."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.NAME"
 msgid "<link=\"FISHTRAP\">Fish Trap</link>"
-msgstr ""
+msgstr "<link=\"FISHTRAP\">Пастка для риб</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORLAMP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.DESC"
 msgid ""
 "The emitting radius of a building's light can be viewed in the Light Overlay."
-msgstr ""
+msgstr "Радіус освітлення, можна подивитися в схемі освітлення."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORLAMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.EFFECT"
 msgid ""
 "Provides <link=\"LIGHT\">Light</link> when <link=\"POWER\">Powered</link>."
 msgstr ""
+"Випромінює <link=\"LIGHT\">світло</link>, коли підключена до джерела <link="
+"\"POWER\">енергії</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORLAMP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.NAME"
 msgid "<link=\"FLOORLAMP\">Lamp</link>"
-msgstr ""
+msgstr "<link=\"FLOORLAMP\">Лампа</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.DESC"
@@ -7610,6 +7754,8 @@ msgid ""
 "Automated switches can be used to manage circuits in areas where Duplicants "
 "cannot enter."
 msgstr ""
+"Автоматичний перемикач може використовуватись для управління схемами на "
+"територіях, в які не можуть потрапити дубліканти."
 
 #. STRINGS.BUILDINGS.PREFABS.TEMPERATURECONTROLLEDSWITCH.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPERATURECONTROLLEDSWITCH.EFFECT"
@@ -7619,11 +7765,15 @@ msgid ""
 "\n"
 "Does not affect circuitry preceding the switch."
 msgstr ""
+"Автоматично вмикає або вимикає <link=\"POWER\">енергію</link>, "
+"використовуючи зовнішню <link=\"HEAT\">температуру</link>.\n"
+"\n"
+"Не впливає на мережу, що передує перемикачу."
 
 #. STRINGS.BUILDINGS.PREFABS.TEMPERATURECONTROLLEDSWITCH.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPERATURECONTROLLEDSWITCH.NAME"
 msgid "<link=\"TEMPERATURECONTROLLEDSWITCH\">Thermo Switch</link>"
-msgstr ""
+msgstr "<link=\"TEMPERATURECONTROLLEDSWITCH\">Термоперемикач</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.THERMALBLOCK.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.THERMALBLOCK.DESC"
@@ -7962,7 +8112,7 @@ msgid ""
 "My Duplicants prefer the look of conductive wire to the regular raggedy "
 "stuff."
 msgstr ""
-"Мої дубліканти надають перевагу вигляду покращеного кабелю в порівнянні зі "
+"Мої дубліканти надають перевагу вигляду покращеного дроту в порівнянні зі "
 "звичайним обшарпаним."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINED.EFFECT
@@ -38552,32 +38702,32 @@ msgstr ""
 #. STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON"
 msgid "Thermal Tolerance Overlay"
-msgstr ""
+msgstr "Схема теплового комфорту"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.COOLING
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.COOLING"
 msgid "Body Heat Loss"
-msgstr ""
+msgstr "Втрата температури тілом"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.HEATING
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.HEATING"
 msgid "Body Heat Retention"
-msgstr ""
+msgstr "Утримання температури тілом"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.HOVERTITLE
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.HOVERTITLE"
 msgid "THERMAL TOLERANCE"
-msgstr ""
+msgstr "ТЕПЛОВИЙ КОМФОРТ"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.NAME
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.NAME"
 msgid "THERMAL TOLERANCE OVERLAY"
-msgstr ""
+msgstr "СХЕМА ТЕПЛОВОГО КОМФОРТУ"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.NEUTRAL
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.NEUTRAL"
 msgid "Comfort Zone"
-msgstr ""
+msgstr "Комфортна зона"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.COOLING
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.COOLING"
@@ -38588,6 +38738,12 @@ msgid ""
 "Duplicants lose more heat in these areas than they can absorb\n"
 "* Warm Sweaters help Duplicants retain body heat"
 msgstr ""
+"<b>Втрата температури тілом</b>\n"
+"Неприємно холодно\n"
+"------------------\n"
+"Дубліканти втрачають більше тепла в цій території, ніж вони можуть "
+"поглинути\n"
+"* Теплий светр допоможе дублікантам утримати тепло тіла"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.HEATING
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.HEATING"
@@ -38598,6 +38754,11 @@ msgid ""
 "Duplicants absorb more heat in these areas than they can release\n"
 "* Cool Vests help Duplicants shed excess body heat"
 msgstr ""
+"<b>Утримання температури тілом</b>\n"
+"Неприємно жарко\n"
+"------------------\n"
+"Дубліканти приймають більше тепла в цій території, ніж вони можуть віддати\n"
+"* Холодні жилети допоможуть дублікантам випускати надлишок температури"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.NEUTRAL
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.NEUTRAL"
@@ -38607,86 +38768,90 @@ msgid ""
 "------------------\n"
 "Duplicants can regulate their internal temperatures in these areas"
 msgstr ""
+"<b>Комфортна зона</b>\n"
+"Комфортна територія\n"
+"------------------\n"
+"Дубліканти можуть регулювати свою внутрішню температуру в цій території"
 
 #. STRINGS.UI.OVERLAYS.JOULES.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.JOULES.BUTTON"
 msgid "Joules Overlay"
-msgstr ""
+msgstr "Схема джоулів"
 
 #. STRINGS.UI.OVERLAYS.JOULES.HOVERTITLE
 msgctxt "STRINGS.UI.OVERLAYS.JOULES.HOVERTITLE"
 msgid "JOULES"
-msgstr ""
+msgstr "ДЖОУЛІ"
 
 #. STRINGS.UI.OVERLAYS.JOULES.NAME
 msgctxt "STRINGS.UI.OVERLAYS.JOULES.NAME"
 msgid "JOULES"
-msgstr ""
+msgstr "ДЖОУЛІ"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.BUTTON"
 msgid "Light Overlay"
-msgstr ""
+msgstr "Схема освітлення"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.DARK
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.DARK"
 msgid "Unlit Area"
-msgstr ""
+msgstr "Не освітлена територія"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.DESC
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.DESC"
 msgid "{0} Lux"
-msgstr ""
+msgstr "{0} люкс"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.HOVERTITLE
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.HOVERTITLE"
 msgid "LIGHT"
-msgstr ""
+msgstr "СВІТЛО"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.LITAREA
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.LITAREA"
 msgid "Lit Area"
-msgstr ""
+msgstr "Освітлена територія"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.NAME
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.NAME"
 msgid "LIGHT OVERLAY"
-msgstr ""
+msgstr "СХЕМА ОСВІТЛЕННЯ"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.HIGH_LIGHT
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.HIGH_LIGHT"
 msgid "Bright"
-msgstr ""
+msgstr "Яскраво"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.LOW_LIGHT
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.LOW_LIGHT"
 msgid "Dim"
-msgstr ""
+msgstr "Тьмяно"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.MAX_LIGHT
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.MAX_LIGHT"
 msgid "Blinding"
-msgstr ""
+msgstr "Сліпуче"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.MEDIUM_LIGHT
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.MEDIUM_LIGHT"
 msgid "Well Lit"
-msgstr ""
+msgstr "Добре освітлено"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.NO_LIGHT
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.NO_LIGHT"
 msgid "Pitch Black"
-msgstr ""
+msgstr "Темно, наче смола"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.VERY_HIGH_LIGHT
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.VERY_HIGH_LIGHT"
 msgid "Brilliant"
-msgstr ""
+msgstr "Надто яскраво"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.VERY_LOW_LIGHT
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.VERY_LOW_LIGHT"
 msgid "Dark"
-msgstr ""
+msgstr "Темно"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.DARK
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.DARK"
@@ -38694,6 +38859,8 @@ msgid ""
 "<b>Unlit Area</b>\n"
 "Duplicants cannot see in these areas"
 msgstr ""
+"<b>Не освітлена територія</b>\n"
+"Дубліканти не можуть бачити в цій території"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.LITAREA
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.LITAREA"
@@ -38701,11 +38868,13 @@ msgid ""
 "<b>Lit Area</b>\n"
 "Duplicants have adequate lighting in these areas"
 msgstr ""
+"<b>Освітлена територія</b>\n"
+"Дубліканти мають достатньо світла в цій території"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.NAME
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.NAME"
 msgid "LIGHT OVERLAY"
-msgstr ""
+msgstr "СХЕМА ОСВІТЛЕННЯ"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.BUTTON"
@@ -39390,7 +39559,7 @@ msgstr ""
 #. STRINGS.UI.OVERLAYSTITLE
 msgctxt "STRINGS.UI.OVERLAYSTITLE"
 msgid "OVERLAYS"
-msgstr ""
+msgstr "СХЕМИ"
 
 #. STRINGS.UI.PICKEDUP
 msgctxt "STRINGS.UI.PICKEDUP"

@@ -3419,7 +3419,7 @@ msgid ""
 "environments."
 msgstr ""
 "Блоки бункера можуть бути використані для побудови міцного сховища в "
-"небезпечному середовищі"
+"небезпечному середовищі."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT"
@@ -38391,7 +38391,7 @@ msgstr "Автоматична дезінфекція споруд вимкне�
 #. STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.UNITS
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.UNITS"
 msgid "Germs"
-msgstr "Мікроби"
+msgstr "Мікробів"
 
 #. STRINGS.UI.OVERLAYS.DISEASE.HOVERTITLE
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.HOVERTITLE"
@@ -38879,52 +38879,52 @@ msgstr "СХЕМА ОСВІТЛЕННЯ"
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.BUTTON"
 msgid "Plumbing Overlay"
-msgstr ""
+msgstr "Схема сентехніки"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.CONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.CONNECTED"
 msgid "Connected"
-msgstr ""
+msgstr "Під'єднано"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.CONSUMER"
 msgid "Output Pipe"
-msgstr ""
+msgstr "Вихідна труба"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_AFTER_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_AFTER_ARROW"
 msgid "<b>Building Intake</b>"
-msgstr ""
+msgstr "<b>вхід споруди</b>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_BEFORE_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_BEFORE_ARROW"
 msgid "Liquid flows from <b>Output Pipe</b>"
-msgstr ""
+msgstr "Рідина рухається в напрямку <b>вихідна труба</b>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DISCONNECTED"
 msgid "Disconnected"
-msgstr ""
+msgstr "Від'єднано"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.FILTERED"
 msgid "Filtered Output Pipe"
-msgstr ""
+msgstr "Вихідна труба з фільтром"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.NAME
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.NAME"
 msgid "PLUMBING OVERLAY"
-msgstr ""
+msgstr "СХЕМА САНТЕХНІКИ"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.NETWORK
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.NETWORK"
 msgid "Liquid Network {0}"
-msgstr ""
+msgstr "Мережа рідини {0}"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.PRODUCER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.PRODUCER"
 msgid "Building Intake"
-msgstr ""
+msgstr "Вхід в споруду"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED"
@@ -38932,6 +38932,8 @@ msgid ""
 "Connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>\">Liquid "
 "Pipe</link>"
 msgstr ""
+"Під'єднано до <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>\">рідинної "
+"труби</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER"
@@ -38942,6 +38944,11 @@ msgid ""
 "Must be on the same network as at least one <link=\"LIQUIDPIPING\">Intake</"
 "link>"
 msgstr ""
+"<b>Вихідна труба</b>\n"
+"Вихід відправляє рідину в труби\n"
+"------------------\n"
+"Потрібно, щоб в цій мережі був принаймні один <link=\"LIQUIDPIPING\">вхід</"
+"link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED"
@@ -38949,6 +38956,8 @@ msgid ""
 "Not connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>"
 "\">Liquid Pipe</link>"
 msgstr ""
+"Не під'єднано до <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>"
+"\">рідинної труби</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED"
@@ -38959,11 +38968,16 @@ msgid ""
 "Must be on the same network as at least one <link=\"LIQUIDPIPING"
 "\">LiquidDestination</link>"
 msgstr ""
+"<b>Вихідна труба з фільтром</b>\n"
+"Вихід з фільтром подає відфільтровану рідину до труб\n"
+"------------------\n"
+"Потрібно, щоб в цій мережі був принаймні один <link=\"LIQUIDPIPING\">пункт "
+"призначення рідини</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.NETWORK
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.NETWORK"
 msgid "Liquid network {0}"
-msgstr ""
+msgstr "Мережа рідини {0}"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.PRODUCER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.PRODUCER"
@@ -38974,46 +38988,50 @@ msgid ""
 "Must be on the same network as at least one <link=\"LIQUIDPIPING\">Output</"
 "link>"
 msgstr ""
+"<b>Вхід споруди</b>\n"
+"Вхід подає поду всередину споруди\n"
+"------------------\n"
+"Має бути в мережі з принаймні одним <link=\"LIQUIDPIPING\">виходом</link>"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.BUTTON"
 msgid "Automation Overlay"
-msgstr ""
+msgstr "Схема автоматизації"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.CIRCUIT_STATUS_HEADER
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.CIRCUIT_STATUS_HEADER"
 msgid "GRID STATUS"
-msgstr ""
+msgstr "СТАТУС МЕРЕЖІ"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.DISCONNECTED"
 msgid "DISCONNECTED"
-msgstr ""
+msgstr "ВІД'ЄДНАНО"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.INPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.INPUT"
 msgid "Input Port"
-msgstr ""
+msgstr "Вхідний порт"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.NAME
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.NAME"
 msgid "AUTOMATION OVERLAY"
-msgstr ""
+msgstr "СХЕМА АВТОМАТИЗАЦІЇ"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.ONE
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ONE"
 msgid "Active"
-msgstr ""
+msgstr "Активно"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.OUTPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.OUTPUT"
 msgid "Output Port"
-msgstr ""
+msgstr "Вихідний порт"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.RESET_UPDATE
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.RESET_UPDATE"
 msgid "Refresh Port"
-msgstr ""
+msgstr "Порт оновлення"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.DISCONNECTED"
@@ -39021,6 +39039,8 @@ msgid ""
 "<b>Disconnected</b>\n"
 "This port is not connected to an automation grid"
 msgstr ""
+"<b>Від'єднано</b>\n"
+"Цей порт не під'єднано до мережі автоматизації"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.INPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.INPUT"
@@ -39028,6 +39048,8 @@ msgid ""
 "<b>Input Port</b>\n"
 "Receives a signal from an automation grid"
 msgstr ""
+"<b>Вхідний порт</b>\n"
+"Отримує сигнал з мережі автоматизації"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ONE
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ONE"
@@ -39035,6 +39057,8 @@ msgid ""
 "<b>Active</b>\n"
 "This port is currently active"
 msgstr ""
+"<b>Активно</b>\n"
+"Цей порт зараз активний"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.OUTPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.OUTPUT"
@@ -39042,6 +39066,8 @@ msgid ""
 "<b>Output Port</b>\n"
 "Sends a signal out to an automation grid"
 msgstr ""
+"<b>Вихідний порт</b>\n"
+"Відсилає сигнал назад до мережі автоматизації"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RESET_UPDATE
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RESET_UPDATE"
@@ -39049,23 +39075,26 @@ msgid ""
 "<b>Refresh Port</b>\n"
 "Resets or updates a building when activated"
 msgstr ""
+"<b>Порт оновлення</b>\n"
+"Скидає чи оновлює споруду, коли активується"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO"
 msgid "<b>Standby</b>This port is currently on standby"
-msgstr ""
+msgstr "<b>В режимі очікування</b> Цей порт зараз в очікуванні"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
 msgid "Standby"
-msgstr ""
+msgstr "В режимі очікування"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.BUTTON"
 msgid "Acoustics Overlay"
-msgstr ""
+msgstr "Схема акустики"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.DESCRIPTION
+#, fuzzy
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.DESCRIPTION"
 msgid ""
 "Two <link=\"SOUND\">Sounds</link> of equal dB will sum for a <b>+3 dB</b> "
@@ -39074,66 +39103,71 @@ msgid ""
 "<b>+0.5 dB</b> to the total signal.\n"
 "Anything more than 10 dB quieter will be inaudible."
 msgstr ""
+"Два <link=\"SOUND\">звуки</link> однакової гучності будуть додаватись для "
+"більше, ніж <b>3 дБ</b>.\n"
+"<link=\"SOUND\">Звук</link>, що на 10 дБ тихіше додає приблизно <b>+0.5 дБ</"
+"b> до загального сигналу.\n"
+"Все, що більш ніж на 10 дБ тихіше, буде нечутно."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.HOVERTITLE
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.HOVERTITLE"
 msgid "Acoustics"
-msgstr ""
+msgstr "Акустика"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.LOUDNESS_STRING
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.LOUDNESS_STRING"
 msgid " <color=#{0}>({1})</color>"
-msgstr ""
+msgstr " <color=#{0}>({1})</color>"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAME
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAME"
 msgid "ACOUSTICS OVERLAY"
-msgstr ""
+msgstr "СХЕМА АКУСТИКИ"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.ACTIVE
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.ACTIVE"
 msgid "Cacophonous"
-msgstr ""
+msgstr "Немилозвучний"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.EXTREME
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.EXTREME"
 msgid "Painful"
-msgstr ""
+msgstr "Болісний"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.PASSIVE
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.PASSIVE"
 msgid "Loud"
-msgstr ""
+msgstr "Голосний"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.PEACEFUL
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.PEACEFUL"
 msgid "Peaceful"
-msgstr ""
+msgstr "Спокійний"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.QUIET
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.QUIET"
 msgid "Quiet"
-msgstr ""
+msgstr "Безшумний"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.TOSSANDTURN
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.TOSSANDTURN"
 msgid "Moderate"
-msgstr ""
+msgstr "Помірний"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.WAKEUP
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAMES.WAKEUP"
 msgid "Noisy"
-msgstr ""
+msgstr "Гучний"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NOTAFFECTING
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NOTAFFECTING"
 msgid "Drowned out:"
-msgstr ""
+msgstr "Заглушений:"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.RANGE
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.RANGE"
 msgid "{0} dB"
-msgstr ""
+msgstr "{0} дБ"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.ACTIVE
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.ACTIVE"
@@ -39146,6 +39180,13 @@ msgid ""
 "Duplicant foot traffic, generators, and powered buildings can create high "
 "noise levels."
 msgstr ""
+"[>{0} дБ]\n"
+"------------------\n"
+"Немилозвучний шум викликає суттєвий стрес та перешкоджає Дублікантам спати "
+"чи досліджувати.\n"
+"\n"
+"Рух дублікантів, генератори та працюючі споруди можуть створювати високий "
+"рівень шуму."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.EXTREME
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.EXTREME"
@@ -39158,6 +39199,13 @@ msgid ""
 "Duplicant foot traffic, generators, and powered buildings can create high "
 "noise levels."
 msgstr ""
+"[>{0} дБ]\n"
+"------------------\n"
+"Болісний рівень шуму надзвичайно нервує дублікантів та призводить до "
+"фізичного страждань.\n"
+"\n"
+"Рух дублікантів, генератори та працюючі споруди можуть створювати високий "
+"рівень шуму."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.HIGH_NOISE_POLLUTION
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.HIGH_NOISE_POLLUTION"
@@ -39167,6 +39215,10 @@ msgid ""
 "------------------\n"
 "High Duplicant traffic and powered buildings can create noisy areas"
 msgstr ""
+"Вплив гучних шумів нервує дублікантів з часом та порушує сон чи здатність "
+"зосереджуватись\n"
+"------------------\n"
+"Високий рух дублікантів та працюючі споруди можуть створювати шумні області"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.LOW_NOISE_POLLUTION
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.LOW_NOISE_POLLUTION"
@@ -39177,6 +39229,11 @@ msgid ""
 "Soundproofed rooms and areas free of buildings and critters will generally "
 "be quieter."
 msgstr ""
+"Тихі ділянки знижують стрес, забезпечуючи дублікантам якісний сон та "
+"допомагають їм зосереджуватися\n"
+"------------------\n"
+"Звукоізоляційні кімнати та зони, вільні від споруд та тварин, загалом будуть "
+"тихішими."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.PASSIVE
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.PASSIVE"
@@ -39189,6 +39246,13 @@ msgid ""
 "Duplicant foot traffic, generators, and powered buildings can create high "
 "noise levels."
 msgstr ""
+"[>{0} дБ]\n"
+"------------------\n"
+"Голосні області зменшують дослідницькі навички в дублікантів та можуть "
+"викликати незначний стрес.\n"
+"\n"
+"Рух дублікантів, генератори та працюючі споруди можуть створювати високий "
+"рівень шуму."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.PEACEFUL
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.PEACEFUL"
@@ -39200,6 +39264,13 @@ msgid ""
 "Soundproofed rooms and areas free of buildings and critters will generally "
 "be quieter."
 msgstr ""
+"[{0} дБ]\n"
+"------------------\n"
+"Спокійні області покращують якість сну дублікантів та здатність до "
+"навчання.\n"
+"\n"
+"Звукоізоляційні кімнати та зони, вільні від споруд та тварин, загалом будуть "
+"тихішими."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.QUIET
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.QUIET"
@@ -39211,6 +39282,12 @@ msgid ""
 "Soundproofed rooms and areas free of buildings and critters will generally "
 "be quieter."
 msgstr ""
+"[>{0} дБ]\n"
+"------------------\n"
+"Безшумні області необхідні дублікантам, щоб заснули.\n"
+"\n"
+"Звукоізоляційні кімнати та зони, вільні від споруд та тварин, загалом будуть "
+"тихішими."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.TOSSANDTURN
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.TOSSANDTURN"
@@ -39222,6 +39299,13 @@ msgid ""
 "Soundproofed rooms and areas free of buildings and critters will generally "
 "be quieter."
 msgstr ""
+"[>{0} дБ]\n"
+"------------------\n"
+"Дубліканти почуватимуться втомленими, якщо змушені спати при помірному "
+"шумі.\n"
+"\n"
+"Звукоізоляційні кімнати та зони, вільні від споруд та тварин, загалом будуть "
+"тихішими."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.WAKEUP
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.WAKEUP"
@@ -39234,56 +39318,63 @@ msgid ""
 "Duplicant foot traffic, generators, and powered buildings can create high "
 "noise levels."
 msgstr ""
+"[>{0} дБ]\n"
+"------------------\n"
+"Гучні області будять дублікантів протягом ночі, але терпимі для них протягом "
+"дня.\n"
+"\n"
+"Рух дублікантів, генератори та працюючі споруди можуть створювати високий "
+"рівень шуму."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOTAL
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOTAL"
 msgid "Total"
-msgstr ""
+msgstr "Всього"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.VALUE
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.VALUE"
 msgid "<color=#{0}>{1} dB</color>"
-msgstr ""
+msgstr "<color=#{0}>{1} дБ</color>"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.BUTTON"
 msgid "Oxygen Overlay"
-msgstr ""
+msgstr "Схема кисню"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.LEGEND1
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND1"
 msgid "Very Breathable"
-msgstr ""
+msgstr "Дуже легко дихається"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.LEGEND2
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND2"
 msgid "Breathable"
-msgstr ""
+msgstr "Дихається вільно"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.LEGEND3
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND3"
 msgid "Barely Breathable"
-msgstr ""
+msgstr "Ледве дихається"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.LEGEND4
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND4"
 msgid "Unbreathable"
-msgstr ""
+msgstr "Неможливо дихати"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.LEGEND5
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND5"
 msgid "Slightly Toxic"
-msgstr ""
+msgstr "Трохи токсично"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.LEGEND6
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND6"
 msgid "Very Toxic"
-msgstr ""
+msgstr "Дуже токсично"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.NAME
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.NAME"
 msgid "OXYGEN OVERLAY"
-msgstr ""
+msgstr "СХЕМА КИСНЮ"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND1
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND1"
@@ -39291,6 +39382,8 @@ msgid ""
 "<b>Very Breathable</b>\n"
 "High oxygen concentrations"
 msgstr ""
+"Дуже легко дихається\n"
+"Висока концентрація кисню"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND2
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND2"
@@ -39298,6 +39391,8 @@ msgid ""
 "<b>Breathable</b>\n"
 "Sufficient oxygen concentrations"
 msgstr ""
+"<b>Дихається вільно</b>\n"
+"Достатня концентрація кисню"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND3
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND3"
@@ -39305,6 +39400,8 @@ msgid ""
 "<b>Barely Breathable</b>\n"
 "Low oxygen concentrations"
 msgstr ""
+"<b>Ледве дихається</b>\n"
+"Мала концентрація кисню"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND4
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND4"
@@ -39314,6 +39411,10 @@ msgid ""
 "------------------\n"
 "Duplicants will suffocate if trapped in these areas"
 msgstr ""
+"<b>Неможливо дихати</b>\n"
+"Надзвичайно мала чи відсутня концентрація кисню\n"
+"------------------\n"
+"Дубліканти будуть задихатись, якщо їх закрити в цій зоні"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND5
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND5"
@@ -39321,6 +39422,8 @@ msgid ""
 "<b>Slightly Toxic</b>\n"
 "Harmful gas concentration"
 msgstr ""
+"<b>Ледве токсично</b>\n"
+"Шкідлива концентрація газу"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND6
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND6"
@@ -39328,171 +39431,177 @@ msgid ""
 "<b>Very Toxic</b>\n"
 "Lethal gas concentration"
 msgstr ""
+"<b>Дуже токсично</b>\n"
+"Смертельна концентрація газу"
 
+# Не знайшов поки де це в грі
 #. STRINGS.UI.OVERLAYS.POWER.WATTS_CONSUMED
+#, fuzzy
 msgctxt "STRINGS.UI.OVERLAYS.POWER.WATTS_CONSUMED"
 msgid "Watts Consumed"
-msgstr ""
+msgstr "Ват спожито"
 
+# Не знайшов поки де це в грі
 #. STRINGS.UI.OVERLAYS.POWER.WATTS_GENERATED
+#, fuzzy
 msgctxt "STRINGS.UI.OVERLAYS.POWER.WATTS_GENERATED"
 msgid "Watts Generated"
-msgstr ""
+msgstr "Ват вироблено"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.BUTTON"
 msgid "Sub-Priority Overlay"
-msgstr ""
+msgstr "Схема підпріоритетів"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT"
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT_TOOLTIP"
 msgid "Sub-Priority 8"
-msgstr ""
+msgstr "Підпріоритет 8"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FIVE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FIVE"
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FIVE_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FIVE_TOOLTIP"
 msgid "Sub-Priority 5"
-msgstr ""
+msgstr "Підпріоритет 5"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FOUR
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FOUR"
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FOUR_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FOUR_TOOLTIP"
 msgid "Sub-Priority 4"
-msgstr ""
+msgstr "Підпріоритет 4"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.NAME
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NAME"
 msgid "SUB-PRIORITY OVERLAY"
-msgstr ""
+msgstr "СХЕМА ПІДПРІОРИТЕТІВ"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.NINE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NINE"
 msgid "9 (High Urgency)"
-msgstr ""
+msgstr "9 (Дуже терміново)"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.NINE_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NINE_TOOLTIP"
 msgid "Sub-Priority 9"
-msgstr ""
+msgstr "Підпріоритет 9"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.ONE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.ONE"
 msgid "1 (Low Urgency)"
-msgstr ""
+msgstr "1 (Не терміново)"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.ONE_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.ONE_TOOLTIP"
 msgid "Sub-Priority 1"
-msgstr ""
+msgstr "Підпріоритет 1"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN"
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN_TOOLTIP"
 msgid "Sub-Priority 7"
-msgstr ""
+msgstr "Підпріоритет 7"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SIX
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SIX"
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SIX_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SIX_TOOLTIP"
 msgid "Sub-Priority 6"
-msgstr ""
+msgstr "Підпріоритет 6"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.THREE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.THREE"
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.THREE_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.THREE_TOOLTIP"
 msgid "Sub-Priority 3"
-msgstr ""
+msgstr "Підпріоритет 3"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.TWO
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.TWO"
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.TWO_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.TWO_TOOLTIP"
 msgid "Sub-Priority 2"
-msgstr ""
+msgstr "Підпріоритет 2"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.BUTTON"
 msgid "Room Overlay"
-msgstr ""
+msgstr "Схема кімнат"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.HOVERTITLE
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.HOVERTITLE"
 msgid "ROOMS"
-msgstr ""
+msgstr "Кімнати"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.NAME
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.NAME"
 msgid "ROOM OVERLAY"
-msgstr ""
+msgstr "СХЕМА КІМНАТ"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.NOROOM.DESC
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.NOROOM.DESC"
 msgid "Enclose this space with walls and doors to make a room"
-msgstr ""
+msgstr "Обмежте цю територію стінами і дверима щоб створити кімнату"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.NOROOM.HEADER
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.NOROOM.HEADER"
 msgid "No Room"
-msgstr ""
+msgstr "Немає кімнати"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.ROOM
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.ROOM"
 msgid "Room {0}"
-msgstr ""
+msgstr "Кімната {0}"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.TOOLTIPS.NOROOMS
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.TOOLTIPS.NOROOMS"
 msgid "Duplicants have nowhere to sleep"
-msgstr ""
+msgstr "Дубліканти не мають місця для сну"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.TOOLTIPS.ROOM
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.TOOLTIPS.ROOM"
 msgid "Completed Duplicant bedrooms"
-msgstr ""
+msgstr "Готова спальня для дубліканта"
 
 #. STRINGS.UI.OVERLAYS.SUIT.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.SUIT.BUTTON"
 msgid "Exosuit Overlay"
-msgstr ""
+msgstr "Схема екзокостюмів"
 
 #. STRINGS.UI.OVERLAYS.SUIT.NAME
 msgctxt "STRINGS.UI.OVERLAYS.SUIT.NAME"
 msgid "EXOSUIT OVERLAY"
-msgstr ""
+msgstr "СХЕМА ЕКЗОКОСТЮМІВ"
 
 #. STRINGS.UI.OVERLAYS.SUIT.SUIT_ICON
 msgctxt "STRINGS.UI.OVERLAYS.SUIT.SUIT_ICON"
 msgid "Exosuit"
-msgstr ""
+msgstr "Екзокостюм"
 
 #. STRINGS.UI.OVERLAYS.SUIT.SUIT_ICON_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.SUIT.SUIT_ICON_TOOLTIP"
@@ -39500,61 +39609,63 @@ msgid ""
 "<b>Exosuit</b>\n"
 "Highlights the current location of equippable exosuits"
 msgstr ""
+"<b>Екзокостюм</b>\n"
+"Підсвічується поточне місце, обладнане екзокостюмами"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.BUTTON"
 msgid "Temperature Overlay"
-msgstr ""
+msgstr "Схема температури"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.COLD
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.COLD"
 msgid "Chilled"
-msgstr ""
+msgstr "Прохолодно"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.EXTREMECOLD
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.EXTREMECOLD"
 msgid "Absolute Zero"
-msgstr ""
+msgstr "Абсолютний нуль"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.EXTREMEHOT
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.EXTREMEHOT"
 msgid "Scorching"
-msgstr ""
+msgstr "Обпалююче"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.HOT
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.HOT"
 msgid "Warm"
-msgstr ""
+msgstr "Тепло"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.MAXHOT
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.MAXHOT"
 msgid "Molten"
-msgstr ""
+msgstr "Можна розплавитись"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.NAME
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.NAME"
 msgid "TEMPERATURE OVERLAY"
-msgstr ""
+msgstr "СХЕМА ТЕМПЕРАТУРИ"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.TEMPERATE
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.TEMPERATE"
 msgid "Temperate"
-msgstr ""
+msgstr "Помірно"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.TOOLTIPS.TEMPERATURE
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.TOOLTIPS.TEMPERATURE"
 msgid "Temperatures reaching {0}"
-msgstr ""
+msgstr "Температура досягає {0}"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.VERYCOLD
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.VERYCOLD"
 msgid "Cold"
-msgstr ""
+msgstr "Холодно"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.VERYHOT
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.VERYHOT"
 msgid "Hot"
-msgstr ""
+msgstr "Гаряче"
 
 #. STRINGS.UI.OVERLAYSTITLE
 msgctxt "STRINGS.UI.OVERLAYSTITLE"
@@ -39564,17 +39675,19 @@ msgstr "СХЕМИ"
 #. STRINGS.UI.PICKEDUP
 msgctxt "STRINGS.UI.PICKEDUP"
 msgid "Picked Up: {0} {1}"
-msgstr ""
+msgstr "Взято: {0} {1}"
 
+# не знаю де це в грі
 #. STRINGS.UI.PLACEINRECEPTACLE
+#, fuzzy
 msgctxt "STRINGS.UI.PLACEINRECEPTACLE"
 msgid "Plant"
-msgstr ""
+msgstr "Рослина"
 
 #. STRINGS.UI.POSITIVE_FORMAT
 msgctxt "STRINGS.UI.POSITIVE_FORMAT"
 msgid "+{0}"
-msgstr ""
+msgstr "+{0}"
 
 #. STRINGS.UI.PRIORITYSCREEN.BASIC
 msgctxt "STRINGS.UI.PRIORITYSCREEN.BASIC"
@@ -39587,6 +39700,14 @@ msgid ""
 "1: Least Urgent\n"
 "9: Most Urgent"
 msgstr ""
+"Встановіть порядок, в якому доручені завдання повинні очікувати на "
+"виконання\n"
+"\n"
+"Суб-пріоритет завжди перевизначений, за пріоритетами Дублікантів "
+"<color=#F44A47>[J]</color>\n"
+"------------------\n"
+"1: Найменша Терміновість\n"
+"9: Найбільша Терміновість"
 
 #. STRINGS.UI.PRIORITYSCREEN.DIAGRAM
 msgctxt "STRINGS.UI.PRIORITYSCREEN.DIAGRAM"
@@ -39594,11 +39715,13 @@ msgid ""
 "Duplicants will pick errands according to their Priorities first, and their "
 "Sub-Priorities second"
 msgstr ""
+"Дубліканти оберуть доручення спочатку відповідно до своїх пріоритетів, а "
+"тоді відповідно до підпріоритетів"
 
 #. STRINGS.UI.PRIORITYSCREEN.DIAGRAM_TITLE
 msgctxt "STRINGS.UI.PRIORITYSCREEN.DIAGRAM_TITLE"
 msgid "PRIORITIES"
-msgstr ""
+msgstr "ПРІОРИТЕТИ"
 
 #. STRINGS.UI.PRIORITYSCREEN.EMERGENCY
 msgctxt "STRINGS.UI.PRIORITYSCREEN.EMERGENCY"
@@ -39623,6 +39746,10 @@ msgid ""
 "Duplicants will pick errands according to their Priorities first, and their "
 "Sub-Priorities second"
 msgstr ""
+"Натисніть щоб відкрити вікно пріоритетів дубліканта\n"
+"\n"
+"Дубліканти оберуть доручення спочатку відповідно до своїх пріоритетів, а "
+"тоді відповідно до підпріоритетів"
 
 #. STRINGS.UI.PRODUCTINFO_APPLICABLERESOURCES
 msgctxt "STRINGS.UI.PRODUCTINFO_APPLICABLERESOURCES"

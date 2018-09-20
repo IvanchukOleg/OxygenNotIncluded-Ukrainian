@@ -672,7 +672,9 @@ msgstr "Праворуч"
 #. STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.NAME"
 msgid "Use Direction: {Direction}"
-msgstr "Викор. напрямок: {Direction}"
+msgstr ""
+"Використовувати напрямок: \n"
+"{Direction}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP"
@@ -1137,7 +1139,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME"
 msgid "Invalid Building Location"
-msgstr "Хибне розташування споруди"
+msgstr "Невірне розташування споруди"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.TOOLTIP"
@@ -1960,7 +1962,7 @@ msgid ""
 "Sources:\n"
 "{1}"
 msgstr ""
-"Споруда виробляє енергію: {0} за секунду\n"
+"Споруда виробляє енергію: {0} ТОД за секунду\n"
 "\n"
 "Джерела:\n"
 "{1}"
@@ -8231,7 +8233,8 @@ msgstr "Вимкнути авторемонт"
 #. STRINGS.BUILDINGS.REPAIRABLE.DISABLE_AUTOREPAIR.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.REPAIRABLE.DISABLE_AUTOREPAIR.TOOLTIP"
 msgid "Only repair this building when ordered"
-msgstr "Споруда відремонтується лише коли помічена"
+msgstr ""
+"Якщо вимкнено, копіянти потребуватимуть команди для ремонтування цієї споруди"
 
 #. STRINGS.BUILDINGS.REPAIRABLE.ENABLE_AUTOREPAIR.NAME
 msgctxt "STRINGS.BUILDINGS.REPAIRABLE.ENABLE_AUTOREPAIR.NAME"
@@ -8241,7 +8244,9 @@ msgstr "Увімкнути авторемонт"
 #. STRINGS.BUILDINGS.REPAIRABLE.ENABLE_AUTOREPAIR.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.REPAIRABLE.ENABLE_AUTOREPAIR.TOOLTIP"
 msgid "Automatically repair this building when damaged"
-msgstr "Автоматичний ремонт булівлі при пошкодженні"
+msgstr ""
+"Коли увімкнено, копіянти автоматично ремонтуватимуть цю споруду коли вона "
+"зазнає пошкоджень"
 
 #. STRINGS.CODEX.A046.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A046.BODY.CONTAINER1"
@@ -14071,7 +14076,6 @@ msgctxt "STRINGS.DUPLICANTS.ARRIVALTIME"
 msgid "Age: "
 msgstr "Вік: "
 
-# тут нема слова "дублікант", але написав так, бо {1} - це, напевно, ім'я, а ім'я може бути і жіночим. "Цей Каталіна" чи "Ця Густав" було б не доречним :)
 #. STRINGS.DUPLICANTS.ARRIVALTIME_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.ARRIVALTIME_TOOLTIP"
 msgid "This {1} was printed on Cycle {0}"
@@ -14091,9 +14095,7 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.AIRCONSUMPTIONRATE.NAME"
 msgid "Air Consumption Rate"
 msgstr "Темп споживання повітря"
 
-# "створює мистецтво" може якось з часом на щось змінити.
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ART.DESC
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ART.DESC"
 msgid ""
 "Determines the speed and finesse with which a Duplicant creates artwork."
@@ -14335,7 +14337,6 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DISEASECURESPEED.NAME"
 msgid "<link=\"DISEASE\">Disease</link> Recovery Speed Bonus"
 msgstr "Бонус швидкості відновлення при <link=\"DISEASE\">хворобі</link>"
 
-# переглянути назву ліжка, камери і ефекту
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DOCTOREDLEVEL.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DOCTOREDLEVEL.DESC"
 msgid ""
@@ -14651,9 +14652,7 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
 msgid "Morale"
 msgstr "Бойовий дух"
 
-# не знаю поки де це в грі
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION"
 msgid "Current Jobs expectations: {0}"
 msgstr "Поточні очікування роботи: {0}"
@@ -14664,21 +14663,17 @@ msgid "This Duplicant's morale is meeting their expectations"
 msgstr "Бойовий дух дубліканта відповідає його очікуванням"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_UNDER
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_UNDER"
 msgid "This Duplicant's morale is below expectations and requires improvement"
 msgstr ""
 "Бойовий дух цього дубліканта нижче рівня очікувань і вимагає покращення"
 
-# треба переглянути де це в грі і чи відповідає по контексту
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC"
 msgid "Morale Expectation"
 msgstr "Очікування бойового духу"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.NAME
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.NAME"
 msgid "Morale Expectation"
 msgstr "Очікування бойового духу"
@@ -14693,7 +14688,6 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.NAME"
 msgid "Ranching"
 msgstr "Скотарство"
 
-# мінімальний рівень тепла, який потрібно/бажано підтримувати
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC"
 msgid "Determines the minimum body heat a Duplicant prefers to maintain."
@@ -14714,24 +14708,18 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALDINGTHRESHOLD.NAME"
 msgid "Scalding Threshold"
 msgstr "Поріг обпікання"
 
-# Треба глянути чи мова дійсно про луску. Може мова про шерсть (не знаю)
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.NAME
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.NAME"
 msgid "Scale Growth"
-msgstr "Ріст луски"
+msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP"
 msgid ""
 "Scale Growth\n"
 "------------------\n"
 "How long until this creatures scales will grow back."
 msgstr ""
-"Ріст луски\n"
-"------------------\n"
-"Наскільки довго луска цих створінь відростає."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC"
@@ -14874,9 +14862,7 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.VIABILITYDELTA.DESC"
 msgid ""
 msgstr ""
 
-# Поняття не маю де це є. Можливо, в космосі, бо щось новеньке.
 #. STRINGS.DUPLICANTS.ATTRIBUTES.VIABILITYDELTA.NAME
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.VIABILITYDELTA.NAME"
 msgid "Viability Loss Rate"
 msgstr "Темп втрати життєздатності"
@@ -15180,9 +15166,7 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.BUILD.STATUS"
 msgid "Going to build"
 msgstr "Йде будувати"
 
-# не впевнений щодо "майструє"
 #. STRINGS.DUPLICANTS.CHORES.BUILD.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.BUILD.TOOLTIP"
 msgid "This Duplicant is constructing a new building"
 msgstr "Цей дублікант майструє нову споруду"
@@ -15479,7 +15463,6 @@ msgstr ""
 "потрібні"
 
 #. STRINGS.DUPLICANTS.CHORES.EAT.NAME
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.EAT.NAME"
 msgid "Eat"
 msgstr "Споживання їжі"
@@ -15846,15 +15829,12 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.TOOLTIP"
 msgid "This Duplicant's getting out of here!"
 msgstr "Цей дублікант забирається звідси!"
 
-# може на якусь кашу чи щось таке змінити...
 #. STRINGS.DUPLICANTS.CHORES.MUSH.NAME
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.MUSH.NAME"
 msgid "Mush"
 msgstr "Виробництво суміші"
 
 #. STRINGS.DUPLICANTS.CHORES.MUSH.STATUS
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.MUSH.STATUS"
 msgid "Going to mush"
 msgstr "Йде робити суміш"
@@ -26569,22 +26549,22 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.ALLOCATED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ALLOCATED.NAME"
 msgid "Resource allocated"
-msgstr ""
+msgstr "Ресурс позначено"
 
 #. STRINGS.MISC.NOTIFICATIONS.ALLOCATED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ALLOCATED.TOOLTIP"
 msgid "These resources are reserved for a planned building:"
-msgstr ""
+msgstr "Ці ресурси зарезервовано для запланованого будівництва:"
 
 #. STRINGS.MISC.NOTIFICATIONS.AVAILABLE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.AVAILABLE.NAME"
 msgid "Resource available"
-msgstr ""
+msgstr "Ресурс доступний"
 
 #. STRINGS.MISC.NOTIFICATIONS.AVAILABLE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.AVAILABLE.TOOLTIP"
 msgid "These resources have become available:"
-msgstr ""
+msgstr "Ці ресурси стали доступними:"
 
 #. STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.MESSAGEBODY"
@@ -26604,16 +26584,30 @@ msgid ""
 "<color=#F44A47><b>[U]</b></color> to refer back to if I forget anything "
 "important."
 msgstr ""
+"• Для переміщення камери я можу використовувати клавіші "
+"<color=#F44A47><b><link=\"CONTROLS\">[WASD]</link></b></color>. "
+"<color=#F44A47><b><link=\"CONTROLS\">[КОЛІЩАТКОМ МИШІ]</link></b></color> "
+"можу приблизити камеру, або віддалити.\n"
+"\n"
+"• <color=#F44A47><b>[H]</b></color> повертає до станції друку в центр "
+"астероїда.\n"
+"\n"
+"•Я можу прискорювати або сповільнювати час, використовуючи кнопки у "
+"верхньому лівому куті, або натиснувши клавішу <color=#F44A47><b>[TAB]</b></"
+"color>. <color=#F44A47><b>[SPACE]</b></color> повністю зупиняє час.\n"
+"\n"
+"• Я записуватиму все, що знайду в мою особисту базу даних "
+"<color=#F44A47><b>[U]</b></color>, щоб повернутись, якщо забуду щось важливе."
 
 #. STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.NAME"
 msgid "TIP: Basic Controls"
-msgstr ""
+msgstr "ПОРАДА: Основи керування"
 
 #. STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.TOOLTIP"
 msgid "Notes on using my HUD"
-msgstr ""
+msgstr "Примітки до використання мого інтерфейсу"
 
 #. STRINGS.MISC.NOTIFICATIONS.BEING_INFECTED.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BEING_INFECTED.MESSAGEBODY"
@@ -26629,31 +26623,41 @@ msgid ""
 "Duplicants from entering biohazardous areas while they recover their spent "
 "immunity points."
 msgstr ""
+"Коли дубліканти контактують з <link=\"DISEASE\">мікробами</link> вони "
+"витрачають одиниці <link=\"IMMUNE SYSTEM\">імунітету</link> для захисту та "
+"збереження здоров'я. Якщо повторний контакт знизить рівень імунітету до 0%, "
+"то вони не зможуть протидіяти мікробам і підхоплять наступне захворювання, "
+"яке зустрінуть.\n"
+"\n"
+"Двері з налаштуванням доступу можуть бути побудовані у вкладці "
+"Основа<color=#F44A47> <b>[1]</b></color> в <link=\"MISC\">Меню побудови</"
+"link> для заборони доступу до біологічно небезпечних зон, поки дубліканти "
+"відновлюють свій імунітет."
 
 #. STRINGS.MISC.NOTIFICATIONS.BEING_INFECTED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BEING_INFECTED.NAME"
 msgid "TIP: Duplicant Immune Systems"
-msgstr ""
+msgstr "ПОРАДА: Імунна система дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.BEING_INFECTED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BEING_INFECTED.TOOLTIP"
 msgid "Notes on keeping Duplicants in peak health"
-msgstr ""
+msgstr "Примітки щодо збереження здоров'я дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.BROKENMACHINE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BROKENMACHINE.NAME"
 msgid "Building broken"
-msgstr ""
+msgstr "Споруда зламана"
 
 #. STRINGS.MISC.NOTIFICATIONS.BROKENMACHINE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BROKENMACHINE.TOOLTIP"
 msgid "These buildings have taken significant damage and are nonfunctional:"
-msgstr ""
+msgstr "Ця споруда зазнала значних пошкоджень і не функціонує:"
 
 #. STRINGS.MISC.NOTIFICATIONS.BUILDINGCOLLAPSE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BUILDINGCOLLAPSE.NAME"
 msgid "Building collapsed"
-msgstr ""
+msgstr "Споруда зруйнована"
 
 #. STRINGS.MISC.NOTIFICATIONS.BUILDINGCOLLAPSE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BUILDINGCOLLAPSE.TOOLTIP"
@@ -26661,173 +26665,178 @@ msgid ""
 "These buildings have collapsed from a lack of foundation:\n"
 "• {0}"
 msgstr ""
+"Ця споруда була зруйнована через відсутність фундаменту:\n"
+"• {0}"
 
 #. STRINGS.MISC.NOTIFICATIONS.BUILDINGOVERHEATED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BUILDINGOVERHEATED.NAME"
 msgid "Damage: Overheated"
-msgstr ""
+msgstr "Пошкодження: перегрівання"
 
 #. STRINGS.MISC.NOTIFICATIONS.BUILDINGOVERHEATED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BUILDINGOVERHEATED.TOOLTIP"
 msgid "Extreme heat is damaging these buildings:\n"
-msgstr ""
+msgstr "Критично висока температура пошкоджує споруди:\n"
 
 #. STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.NAME"
 msgid "Circuit Overloaded"
-msgstr ""
+msgstr "Схема перевантажена"
 
 #. STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.TOOLTIP"
 msgid "These wires melted due to excessive current demands on their circuits"
-msgstr ""
+msgstr "Ці дроти плавляться через велике навантаження в мережі"
 
 #. STRINGS.MISC.NOTIFICATIONS.COLONYLOST.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.COLONYLOST.NAME"
 msgid "Colony Lost"
-msgstr ""
+msgstr "Колонію втрачено"
 
 #. STRINGS.MISC.NOTIFICATIONS.COLONYLOST.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.COLONYLOST.TOOLTIP"
 msgid "All Duplicants are dead or incapacitated"
-msgstr ""
+msgstr "Усі дубліканти померли або недієздатні"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_CRUSHED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_CRUSHED.NAME"
 msgid "Duplicants crushed"
-msgstr ""
+msgstr "Дубліканти розчавлені"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_CRUSHED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_CRUSHED.TOOLTIP"
 msgid "These Duplicants have been crushed:"
-msgstr ""
+msgstr "Цих дублікантів було розчавлено:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_DISEASE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_DISEASE.NAME"
 msgid "Duplicants have succumb to illness"
-msgstr ""
+msgstr "Дубліканти піддалися хворобі"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_DISEASE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_DISEASE.TOOLTIP"
 msgid ""
 "These Duplicants died from an untreated <link=\"DISEASE\">Disease</link>:"
 msgstr ""
+"Ці дублікани померли від невилікуваної <link=\"DISEASE\">хвороби</link>:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_DROWNED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_DROWNED.NAME"
 msgid "Duplicants have drowned"
-msgstr ""
+msgstr "Дубліканти втопитись"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_DROWNED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_DROWNED.TOOLTIP"
 msgid "These Duplicants have drowned:"
-msgstr ""
+msgstr "Ці дубліканти втопились:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_ENTOUMBED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_ENTOUMBED.NAME"
 msgid "Duplicants have been entombed"
-msgstr ""
+msgstr "Дубліканти були поховані"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_ENTOUMBED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_ENTOUMBED.TOOLTIP"
 msgid "These Duplicants are trapped and need assistance:"
-msgstr ""
+msgstr "Ці дубліканти потрапили в пастку і потребують допомоги:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_FELL.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FELL.NAME"
 msgid "Duplicants splattered"
-msgstr ""
+msgstr "Дубліканти розбились"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_FELL.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FELL.TOOLTIP"
 msgid "These Duplicants fell to their deaths:"
-msgstr ""
+msgstr "Ці дубліканти розбились на смерть:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.NAME"
 msgid "Duplicants have frozen"
-msgstr ""
+msgstr "Дубліканти заморожені"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.TOOLTIP"
 msgid ""
 "These Duplicants died from extremely low <link=\"HEAT\">Temperatures</link>:"
 msgstr ""
+"Ці дубліканти померли від критично низької <link=\"HEAT\">температури</link>:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.NAME"
 msgid "Duplicants have overheated"
-msgstr ""
+msgstr "Дубліканти перегрілись"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.TOOLTIP"
 msgid "These Duplicants died from extreme <link=\"HEAT\">Heat</link>:"
 msgstr ""
+"Ці дубліканти померли від критично високої <link=\"HEAT\">температури</link>:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_OVERPRESSURE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERPRESSURE.NAME"
 msgid "Duplicants pressurized"
-msgstr ""
+msgstr "Дубліканти під високим тиском"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_OVERPRESSURE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERPRESSURE.TOOLTIP"
 msgid "These Duplicants died in a high pressure environment:"
-msgstr ""
+msgstr "Ці дубліканти померли від середовища з високим тиском:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_POISONED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_POISONED.NAME"
 msgid "Duplicants poisoned"
-msgstr ""
+msgstr "Дубліканти отруїлися"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_POISONED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_POISONED.TOOLTIP"
 msgid "These Duplicants died as a result of poisoning:"
-msgstr ""
+msgstr "Ці дубліканти померли через отруєння:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_RAPIDDECOMPRESSION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_RAPIDDECOMPRESSION.NAME"
 msgid "Duplicants pressurized"
-msgstr ""
+msgstr "Дубліканти під низьким тиском"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_RAPIDDECOMPRESSION.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_RAPIDDECOMPRESSION.TOOLTIP"
 msgid "These Duplicants died in a low pressure environment:"
-msgstr ""
+msgstr "Ці дубліканти померли від середовища з низьким тиском:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_STARVATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_STARVATION.NAME"
 msgid "Duplicants have starved"
-msgstr ""
+msgstr "Дубліканти голодують"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_STARVATION.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_STARVATION.TOOLTIP"
 msgid "These Duplicants died from a lack of <link=\"FOOD\">Food</link>:"
-msgstr ""
+msgstr "Ці дублікати померли від нестачі <link=\"FOOD\">їжі</link>:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.NAME"
 msgid "Duplicants have suffocated"
-msgstr ""
+msgstr "Дубліканти задихнулись"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.TOOLTIP"
 msgid "These Duplicants have asphyxiated in <link=\"HEAT\">Cold</link> air:"
-msgstr ""
+msgstr "Ці дубліканти задихнулись в <link=\"HEAT\">холодному</link> повітрі:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.NAME"
 msgid "Duplicants have suffocated"
-msgstr ""
+msgstr "Дубліканти задихнулись"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.TOOLTIP"
 msgid "These Duplicants have asphyxiated in <link=\"HEAT\">heat</link> air:"
-msgstr ""
+msgstr "Ці дубліканти задихнулись в <link=\"HEAT\">гарячому</link> повітрі:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDTANKEMPTY.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDTANKEMPTY.NAME"
 msgid "Duplicants have suffocated"
-msgstr ""
+msgstr "Дубліканти задихнулись"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDTANKEMPTY.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDTANKEMPTY.TOOLTIP"
@@ -26835,21 +26844,22 @@ msgid ""
 "These Duplicants were unable to reach <link=\"OXYGEN\">Oxygen</link> and "
 "died:"
 msgstr ""
+"Ці дубліканти не отримали достатньо <link=\"OXYGEN\">кисню</link> і померли:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATION.NAME"
 msgid "Duplicants suffocated"
-msgstr ""
+msgstr "Дубліканти задихнулися"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATION.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATION.TOOLTIP"
 msgid "These Duplicants died from a lack of <link=\"OXYGEN\">Oxygen</link>:"
-msgstr ""
+msgstr "Ці дубліканти померли від нестачі <link=\"OXYGEN\">кисню</link>:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.NAME"
 msgid "ALERT - Surface Breach"
-msgstr ""
+msgstr "УВАГА - розгерметизація"
 
 #. STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP"
@@ -26861,6 +26871,12 @@ msgid ""
 "I should be careful; the region is extremely inhospitable and I could easily "
 "lose resources to the vaccuum of space."
 msgstr ""
+"Надзвичайно!\n"
+"\n"
+"Моїм дублікантам вдалося пробити поверхню астероїда.\n"
+"\n"
+"Потрібно бути обережним; Ця ділянка надзвичайно небезпечна і я легко можу "
+"втратити ресурси у вакуумі космосу."
 
 #. STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY"
@@ -26875,16 +26891,25 @@ msgid ""
 "Dangerously contaminated food can be sent to compost by clicking the <link="
 "\"MISC\">Compost</link> button on the selected item."
 msgstr ""
+"<link=\"FOOD\">Їжа</link>, приготована моїми дублікантами, буде настільки ж "
+"чистою, як і інгредієнти, які використовувались, щоб зробити її. Зберігання "
+"їжі в чистоті або в <link=\"REFRIGERATOR\">прохолоді</link> збереже їжу від "
+"<link=\"DISEASE\">міктобів</link>, тоді як ретельно розміщені <link="
+"\"WASHBASIN\">умивальники</link> або <link=\"SHOWER\">душі</link> вбережуть "
+"кухарів від зараженні їжі при обробці.\n"
+"\n"
+"Небезпечно забруднену їжу можна відправити на компост, натиснувши кнопку "
+"<link=\"MISC\">Компостувати</link> на вибраному пребметі."
 
 #. STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.NAME"
 msgid "TIP: Food Safety"
-msgstr ""
+msgstr "ПОРАДА: Безпека їжі"
 
 #. STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.TOOLTIP"
 msgid "Notes on managing food contamination"
-msgstr ""
+msgstr "Примітки щодо керування забрудненням їжі"
 
 #. STRINGS.MISC.NOTIFICATIONS.DTU.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DTU.MESSAGEBODY"
@@ -26894,16 +26919,20 @@ msgid ""
 "\n"
 "1 DTU = 1055.06 J"
 msgstr ""
+"З історичних причин, дубліканти вимірюють теплову енергію, використовуючи "
+"Теплові Одиниці Дублікантів, або ТОД.\n"
+"\n"
+"1 ТОД = 1055,06 Дж"
 
 #. STRINGS.MISC.NOTIFICATIONS.DTU.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DTU.NAME"
 msgid "TIP: Duplicant Thermal Units"
-msgstr ""
+msgstr "ПОРАДА: Температурні одиниці дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.DTU.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DTU.TOOLTIP"
 msgid "How Duplicants measure heat energy."
-msgstr ""
+msgstr "Як дубліканти вимірюють теплову енергію."
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY"
@@ -26911,36 +26940,38 @@ msgid ""
 "New Duplicants are no longer available for printing.\n"
 "Countdown to the next production was rebooted."
 msgstr ""
+"Нові дубліканти більше не доступні для друку.\n"
+"Зворотній відлік до наступного виробництва був перезавантажений."
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.NAME"
 msgid "New Duplicants have been reabsorbed"
-msgstr ""
+msgstr "Нові дубліканти повторно завантажуються"
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.TOOLTIP"
 msgid "The printable Duplicants have been reabsorbed"
-msgstr ""
+msgstr "Дубліканти повторно завантажаться для друку"
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTDIED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTDIED.NAME"
 msgid "Duplicants have died"
-msgstr ""
+msgstr "Дубліканти померли"
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTDIED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTDIED.TOOLTIP"
 msgid "These Duplicants have died:"
-msgstr ""
+msgstr "Ці дубліканти померли:"
 
 #. STRINGS.MISC.NOTIFICATIONS.FABRICATOREMPTY.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FABRICATOREMPTY.NAME"
 msgid "Fabricator idle"
-msgstr ""
+msgstr "Верстат простоює"
 
 #. STRINGS.MISC.NOTIFICATIONS.FABRICATOREMPTY.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FABRICATOREMPTY.TOOLTIP"
 msgid "These fabricators have no recipes queued:"
-msgstr ""
+msgstr "Ці верстати не мають рецептів в черзі:"
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY"
@@ -26952,21 +26983,27 @@ msgid ""
 "<color=#F44A47><b>[5]</b></color> over pools of liquid, my Duplicants will "
 "be able to bottle them up and deliver them wherever they need to go."
 msgstr ""
+"Для того, щоб переносити <link=\"LIQUIDS\">рідини</link> з місця на місце, "
+"моїм дублікантам потрібно бутилювати їх для транспортування.\n"
+"\n"
+"Якщо збудувати ручний насос із вкладки <link=\"MISC\">САНТЕХНІКА</"
+"link><color=#F44A47><b>[5]</b></color> над басейном рідини, мої дубліканти "
+"будуть бутилювати її і доставляти туди, куди потрібно."
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME"
 msgid "TIP: Fetching Water"
-msgstr ""
+msgstr "ПОРАДА: Перенесення води"
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.TOOLTIP"
 msgid "Notes liquid resource gathering"
-msgstr ""
+msgstr "Примітка щодо збору рідких ресурсів"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODLOW.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODLOW.NAME"
 msgid "Food shortage"
-msgstr ""
+msgstr "Нестача їжі"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODLOW.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODLOW.TOOLTIP"
@@ -26975,11 +27012,14 @@ msgid ""
 "    • {0} are currently available\n"
 "    • My Duplicants are consuming {1} per cycle"
 msgstr ""
+"В колонії малі запаси <link=\"FOOD\">їжі</link>:\n"
+"    • {0} наразі доступно\n"
+"    • мої дубліканти споживають {1} на цикл"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODROT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODROT.NAME"
 msgid "Food has decayed"
-msgstr ""
+msgstr "Зіпсована їжа"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODROT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODROT.TOOLTIP"
@@ -26988,11 +27028,13 @@ msgid ""
 "edible:\n"
 "• {0}"
 msgstr ""
+"Ці <link=\"FOOD\">продукти харчування</link> згнили і більше не їстивні:\n"
+"• {0}"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODSTALE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODSTALE.NAME"
 msgid "Food has become stale"
-msgstr ""
+msgstr "Їжа псується"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODSTALE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODSTALE.TOOLTIP"
@@ -27000,11 +27042,13 @@ msgid ""
 "These <link=\"FOOD\">Food</link> items have become stale and could rot if "
 "not stored:"
 msgstr ""
+"Ці <link=\"FOOD\">продукти харчування</link> псуються і зігниють, якщо їх не "
+"зберегти:"
 
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDARRIVING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDARRIVING.NAME"
 msgid "The colony is entering a cloud of gas"
-msgstr ""
+msgstr "Колонія входить в газову хмару"
 
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDARRIVING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDARRIVING.TOOLTIP"
@@ -27014,17 +27058,19 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDDEPARTING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDDEPARTING.NAME"
 msgid "The gas cloud is receding"
-msgstr ""
+msgstr "Газова хмара відступає"
 
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDDEPARTING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDDEPARTING.TOOLTIP"
 msgid ""
 msgstr ""
 
+# Можливо, буде краще "...відкритому просторі"
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDGONE.NAME
+#, fuzzy
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDGONE.NAME"
 msgid "The colony is once again in open space"
-msgstr ""
+msgstr "Ця колонія знову у відкритому космосі"
 
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDGONE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDGONE.TOOLTIP"
@@ -27034,7 +27080,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDPEAK.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDPEAK.NAME"
 msgid "The gas cloud is at its densest point"
-msgstr ""
+msgstr "Газова хмара досягла найбільшої щільності"
 
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDPEAK.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDPEAK.TOOLTIP"
@@ -27044,59 +27090,62 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDWARNING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDWARNING.NAME"
 msgid "A gas cloud approaches"
-msgstr ""
+msgstr "Наближається газова хмара"
 
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDWARNING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDWARNING.TOOLTIP"
 msgid "A toxic gas cloud will soon envelop the colony"
-msgstr ""
+msgstr "Токсична газова хмара незабаром охопить колонію"
 
 #. STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.NAME"
 msgid "Genes Shuffled"
-msgstr ""
+msgstr "Гени змішано"
 
 #. STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.SUFFIX
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.SUFFIX"
 msgid " has developed {0}"
-msgstr ""
+msgstr " розвинуто {0}"
 
 #. STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.TOOLTIP"
 msgid "These Duplicants had their genetic makeup modified:"
-msgstr ""
+msgstr "Ці дубліканти модифікували свої гени:"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALING.NAME"
 msgid "Healing"
-msgstr ""
+msgstr "Лікування"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALING.TOOLTIP"
 msgid "This Duplicant is recovering from an injury"
-msgstr ""
+msgstr "Цей дублікант відновлюється після травми"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.NAME"
 msgid "New trait"
-msgstr ""
+msgstr "Нова риса"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.SUFFIX
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.SUFFIX"
 msgid " has developed {0}"
-msgstr ""
+msgstr " розвинуто {0}"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.TOOLTIP
+#, fuzzy
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.TOOLTIP"
 msgid ""
 "These Duplicants' injuries weren't set and healed improperly. They developed "
 "traits as a result:"
 msgstr ""
+"Травми цих дублікантів було неправильно діагностовано та вилікувано. В "
+"підсумку вони розвинути такі риси:"
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME"
 msgid "Colony requires wash basins"
-msgstr ""
+msgstr "Колонії необхідні умивальники"
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP"
@@ -27104,21 +27153,24 @@ msgid ""
 "<link=\"DISEASE\">Germs</link> are spreading in the colony because my "
 "Duplicants have nowhere to clean up"
 msgstr ""
+"<link=\"DISEASE\">Мікроби</link> поширюються колонією, оскільки мої "
+"дубліканти не мають де помитись"
 
 #. STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.NAME"
 msgid "New Duplicants have been reabsorbed"
-msgstr ""
+msgstr "Нові дубліканти повторно завантажуються"
 
+# можливо, желе
 #. STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.TOOLTIP"
 msgid "The printable Duplicants have been Oozed"
-msgstr ""
+msgstr "Дубліканти для друку стали желе"
 
 #. STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.NAME"
 msgid "Duplicants' expectations increased"
-msgstr ""
+msgstr "Очікування дубліканта збільшились"
 
 #. STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.TOOLTIP"
@@ -27126,31 +27178,33 @@ msgid ""
 "Duplicants require better amenities over time.\n"
 "These Duplicants have increased their expectations:"
 msgstr ""
+"Дубліканти вимагають кращих умов з часом.\n"
+"Ці дубліканти збільшили свої очікування:"
 
 #. STRINGS.MISC.NOTIFICATIONS.INVALIDCONSTRUCTIONLOCATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INVALIDCONSTRUCTIONLOCATION.NAME"
 msgid "Invalid construction location"
-msgstr ""
+msgstr "Невірне місце для спорудження"
 
 #. STRINGS.MISC.NOTIFICATIONS.INVALIDCONSTRUCTIONLOCATION.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INVALIDCONSTRUCTIONLOCATION.TOOLTIP"
 msgid "These buildings cannot be constructed in the planned areas:\n"
-msgstr ""
+msgstr "Ці споруди не можуть бути побудовані на відведених територіях:\n"
 
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.NAME"
 msgid "Skill increase"
-msgstr ""
+msgstr "Навички збільшились"
 
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.SUFFIX
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.SUFFIX"
 msgid " - {0} raised to {1}"
-msgstr ""
+msgstr " - {0} підвищено до {1}"
 
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP"
 msgid "These Duplicants' skills have improved:"
-msgstr ""
+msgstr "Навички цих дублікантів збільшились:"
 
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP_PST
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP_PST"
@@ -27159,6 +27213,9 @@ msgid ""
 "\n"
 "Their expectations have increased accordingly."
 msgstr ""
+"\n"
+"\n"
+"Їхні очікування зросли відповідно."
 
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY"
@@ -27173,16 +27230,25 @@ msgid ""
 "and click <color=#F44A47><b>SHOW NAVIGATION</b></color> to view all areas "
 "currently within their reach."
 msgstr ""
+"Для того, щоб виконувати мої доручення, дубліканти повинні спочатку "
+"дістатись до них.\n"
+"\n"
+"Під розміщенням доручень я маю на увазі, що дубліканти можуть видиратись на "
+"два блоки вгору і не можуть пролізти в отвори, менші, ніж два блоки.\n"
+"\n"
+"Щоб перевірити, чи доступне доручення, яке я віддаю, я можу вибрати "
+"дубліканта і натиснути <color=#F44A47><b>ПОКАЗАТИ НАВІГАЦІЮ</b></color> щоб "
+"побачити всі місця, куди він зараз може дістатись."
 
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.NAME"
 msgid "TIP: Duplicant Movement"
-msgstr ""
+msgstr "ПОРАДА: Рух дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.TOOLTIP"
 msgid "Notes on my Duplicants' maneuverability"
-msgstr ""
+msgstr "Примітки щодо маневреності моїх дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY"
@@ -27197,26 +27263,35 @@ msgid ""
 "up. If I keep the base clean and the Duplicants hygienic, their <link="
 "\"IMMUNE SYSTEM\">Immunity</link> should handle the rest."
 msgstr ""
+"<link=\"DISEASE\">Мікроби</link> - це невидима небезпека, яка є причиною "
+"<link=\"DISEASE\">захворювань</link> моїх дублікантів. <link=\"MISC\">СХЕМА "
+"МІКРОБІВ</link> <color=#F44A47><b>[F9]</b></color> дозволяє мені побачити "
+"всі скупчення мікробів в колонії і їх джерела, які їх породжують.\n"
+"\n"
+"Я пожу будувати умивальники в забруднених територіях із вкладки <link=\"MISC"
+"\">ТЕРАПІЯ</link> <color=#F44A47><b>[8]</b></color> щоб вказати дублікантам, "
+"коли митись. Якщо я забезпечу базову чистоту і гігієну дублікантів, їх <link="
+"\"IMMUNE SYSTEM\">імунітет</link> має впоратись із рештою."
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME"
 msgid "TIP: Germs and Disease"
-msgstr ""
+msgstr "ПОРАДА: Мікроби і захворювання"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.TOOLTIP"
 msgid "Notes on the risks of Duplicant disease"
-msgstr ""
+msgstr "Примітки щодо ризиків захворювань дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.MISSINGMATERIALS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MISSINGMATERIALS.NAME"
 msgid "Missing materials"
-msgstr ""
+msgstr "Недостатньо ресурсів"
 
 #. STRINGS.MISC.NOTIFICATIONS.MISSINGMATERIALS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MISSINGMATERIALS.TOOLTIP"
 msgid "These resources are not available:"
-msgstr ""
+msgstr "Ці ресурси відсутні:"
 
 #. STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.MESSAGEBODY"
@@ -27232,16 +27307,26 @@ msgid ""
 "Duplicants will also be <link=\"STRESS\">Stressed</link> by walking through "
 "Polluted Water, so it is best removed quickly for my colony's safety."
 msgstr ""
+"<link=\"DIRTYWATER\">Забруднена вода</link> з часом виділяє <link="
+"\"CONTAMINATEDOXYGEN\">забруднений кисень</link> і прискорює поширення <link="
+"\"DISEASE\">захворювань</link> в моїй колонії.\n"
+"\n"
+"Я можу доручити дублікантам прибрати невеликі калюжі, натиснувши на <link="
+"\"MISC\">ІНСТРУМЕНТ МИТТЯ</link> <color=#F44A47><b>[M]</b></color>, але для "
+"більших об'ємів можна використати фільтрувальні машини.\n"
+"\n"
+"Дубліканти також будуть <link=\"STRESS\">нервуватись</link>, проходячи через "
+"забруднену воду, тому краще швидко прибрати для безпеки моєї колонії."
 
 #. STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.NAME"
 msgid "TIP: Polluted Water"
-msgstr ""
+msgstr "ПОРАДА: Забруднена вода"
 
 #. STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.TOOLTIP"
 msgid "Notes on handling polluted materials"
-msgstr ""
+msgstr "Примітки щодо поводження із забрудненими матеріалами"
 
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY"
@@ -27255,42 +27340,51 @@ msgid ""
 "the colony will have to be improved to keep up their Morale. An overview of "
 "Morale and Stress can be viewed on the Vitals screen."
 msgstr ""
+"Їжа, кімнати, декор і відпочинок, які дублікант отримує, впливатимуть на "
+"його бойовий дух. Хороший досвід покращує бойовий дух, а від поганого "
+"занепадає. Коли бойовий дух нижче рівня очікувань, дубліканти починають "
+"нервуватись.\n"
+"\n"
+"Дубліканти, призначені на роботу, будуть збільшувати очікування і скоро "
+"колонію потрібно буде покращувати для збереження бойового духу. Показники "
+"бойового духу і стресу можна подивитись в екрані Показники."
 
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.NAME"
 msgid "TIP: Morale"
-msgstr ""
+msgstr "ПОРАДА: Бойовий дух"
 
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.TOOLTIP"
 msgid "Notes on Duplicant expectations"
-msgstr ""
+msgstr "Примітки щодо очікувань дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEARLYDRY.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEARLYDRY.NAME"
 msgid "Nearly dry"
-msgstr ""
+msgstr "Майже сухі"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEARLYDRY.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEARLYDRY.TOOLTIP"
 msgid "These Duplicants will dry off soon:"
-msgstr ""
+msgstr "Ці дубліканти скоро висохнуть:"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDENERGYSOURCE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDENERGYSOURCE.NAME"
 msgid "Colony requires a <link=\"POWER\">Power</link> source"
-msgstr ""
+msgstr "Колонії необхідне джерело <link=\"POWER\">енергії</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDENERGYSOURCE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDENERGYSOURCE.TOOLTIP"
 msgid ""
 "<link=\"POWER\">Power</link> is required to operate electrical buildings"
 msgstr ""
+"<link=\"POWER\">Енергія</link> потрібна для керування електричними спорудами"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.NAME"
 msgid "Colony requires a food source"
-msgstr ""
+msgstr "Колонії необхідне джерело їжі"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.TOOLTIP"
@@ -27298,11 +27392,12 @@ msgid ""
 "The colony will exhaust their supplies without a new <link=\"FOOD\">Food</"
 "link> source"
 msgstr ""
+"Колонія вичерпає свої припаси без нового джерела <link=\"FOOD\">їжі</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDOXYGENSOURCE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDOXYGENSOURCE.NAME"
 msgid "Insufficient oxygen generation"
-msgstr ""
+msgstr "Недостатня генерація кисню"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDOXYGENSOURCE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDOXYGENSOURCE.TOOLTIP"
@@ -27311,31 +27406,33 @@ msgid ""
 "this cycle\n"
 "• My Duplicants have consumed {ConsumptionRate}"
 msgstr ""
+"• Колонія виробила {EmittingRate} <link=\"OXYGEN\">Кисню</link> цього циклу\n"
+"• Мої дубліканти споживають {ConsumptionRate}"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.NAME"
 msgid "Colony requires beds"
-msgstr ""
+msgstr "Колонії необхідні ліжка"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.TOOLTIP"
 msgid "My Duplicants would appreciate a place to sleep"
-msgstr ""
+msgstr "Мої дубліканти будуть вдячні за місце для сну"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.NAME"
 msgid "Colony requires toilets"
-msgstr ""
+msgstr "Колонії необхідні туалети"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.TOOLTIP"
 msgid "My Duplicants have nowhere to relieve themselves"
-msgstr ""
+msgstr "Мої дубліканти мають десь задовольняти свої потреби"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME"
 msgid "{0} has developed a trait"
-msgstr ""
+msgstr "{0} розвинув(ла) рису"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.TOOLTIP"
@@ -27343,16 +27440,18 @@ msgid ""
 "{0} has developed the trait(s):\n"
 "    • {1}"
 msgstr ""
+"{0} розвинув(ла) рису(и):\n"
+"    • {1}"
 
 #. STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME"
 msgid "Colony requires Med-Beds"
-msgstr ""
+msgstr "Колонії необхідні мед-ліжка"
 
 #. STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.TOOLTIP"
 msgid "There is nowhere for sick Duplicants to rest or receive medical care"
-msgstr ""
+msgstr "Хворим дублікантам ніде відпочити, або отримати медичну допомогу"
 
 #. STRINGS.MISC.NOTIFICATIONS.NOALERTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NOALERTS.NAME"
@@ -27377,12 +27476,12 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.NAME"
 msgid "Output blocked"
-msgstr ""
+msgstr "Вихід заблоковано"
 
 #. STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP"
 msgid "Blocked pipes have stopped these systems from functioning:"
-msgstr ""
+msgstr "Заблоковані труби зупинили роботу цієї системи:"
 
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY"
@@ -27394,26 +27493,32 @@ msgid ""
 "color> to fine tune them. Many buildings will also let me change their Sub-"
 "Priority level when I select them."
 msgstr ""
+"Дубліканти обиратимуть що їм робити, опираючись на пріоритети, які я "
+"визначу. Я можу відкрити <link=\"PRIORITIES\">ВКЛАДКУ ПРІОРИТЕТІВ</link> "
+"<color=#F44A47><b>[J]</b></color> для встановлення загальних пріоритетів, та "
+"<link=\"PRIORITIES\">ІНСТРУМЕНТ ПІДПРІОРИТЕТІВ</link> <color=#F44A47><b>[P]</"
+"b></color> для тонкого налаштування. Багато споруд також дозволять мені "
+"змінювати їх субпріоритети, коли я виберу їх."
 
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME"
 msgid "TIP: Priorities"
-msgstr ""
+msgstr "ПОРАДА: Пріоритети"
 
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.TOOLTIP"
 msgid "Notes on my Duplicants' priorities"
-msgstr ""
+msgstr "Примітки щодо пріоритетів дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.REDALERT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.REDALERT.NAME"
 msgid "Red Alert"
-msgstr ""
+msgstr "Червона тривога"
 
 #. STRINGS.MISC.NOTIFICATIONS.REDALERT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.REDALERT.TOOLTIP"
 msgid "The colony is prioritizing work over their individual well-being"
-msgstr ""
+msgstr "Колонії важливіша робота, ніж власне благополуччя"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.MESSAGEBODY"
@@ -27423,26 +27528,30 @@ msgid ""
 "New buildings have become available to me:\n"
 "  • {1}"
 msgstr ""
+"Еврика! Мої дубліканти дослідили технологію {0}.\n"
+"\n"
+"Тепер мені доступні нові споруди:\n"
+"  • {1}"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
 msgid "Research Complete"
-msgstr ""
+msgstr "Дослідження завершено"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.TOOLTIP"
 msgid "{0} research complete!"
-msgstr ""
+msgstr "Дослідження \"{0}\" завершено!"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.NAME"
 msgid "Resources melted"
-msgstr ""
+msgstr "Ресурси розплавлено"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.TOOLTIP"
 msgid "These resources have melted:"
-msgstr ""
+msgstr "Ці ресурси розплавились:"
 
 #. STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.LINE
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.LINE"
@@ -27450,6 +27559,8 @@ msgid ""
 "\n"
 "• <b>{0}</b> mastered the {1} job"
 msgstr ""
+"\n"
+"• <b>{0}</b> опанував роботу {1}"
 
 #. STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.MESSAGEBODY"
@@ -27458,16 +27569,18 @@ msgid ""
 "promotion:\n"
 "{0}"
 msgstr ""
+"Ці дубліканти опанували свою роботу і можуть мати право на підвищення:\n"
+"{0}"
 
 #. STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.NAME"
 msgid "Jobs Mastered"
-msgstr ""
+msgstr "Роботи опановано"
 
 #. STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.TOOLTIP"
 msgid "Job Mastered"
-msgstr ""
+msgstr "Роботу опановано"
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME"
@@ -27483,6 +27596,11 @@ msgid ""
 "\n"
 "Open the Schedule Screen to change blocks or assignments."
 msgstr ""
+"Дублікант, призначений на '{0}' почав свій блок {1}.\n"
+"\n"
+"{2}\n"
+"\n"
+"Відкрийте екран планування для зміни блоків, або завдань."
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY"
@@ -27494,16 +27612,22 @@ msgid ""
 "<color=#F44A47><b>[U]</b></color> to adjust the colony's agenda and plan how "
 "they should utilize their day."
 msgstr ""
+"Мої будліканти жадають структури і будуть їсти, спати, працювати або "
+"приймати ванну в час, який я визначу для цих занять.\n"
+"\n"
+"Для кращого використання їхнього часу я можу відкрити ВКЛАДКУ ПЛАНУВАННЯ "
+"<color=#F44A47><b>[U]</b></color> для налаштування розпорядку дня і плану, "
+"як дубліканти повинні проводити свій день."
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.NAME"
 msgid "TIP: Scheduling"
-msgstr ""
+msgstr "ПОРАДА: Планування"
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.TOOLTIP"
 msgid "Notes on scheduling my Duplicants' time"
-msgstr ""
+msgstr "Примітки щодо планування часу дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.MESSAGEBODY"
@@ -27517,47 +27641,57 @@ msgid ""
 "their INFORMATION TAB to view individual <link=\"STRESS\">Stress</link> "
 "factors and, hopefully, reduce them."
 msgstr ""
+"Дубліканти - ніжні створіння і мають зрерігати прихічне здоров'я для того, "
+"щоб функціонувати. Погані умови проживання збільшують їх психологічний <link="
+"\"STRESS\">стрес</link>, тоді як хороші умови зменшують його. Занадто багато "
+"<link=\"STRESS\">стресу</link> призводить до нервових зривів дублікантів.\n"
+"\n"
+"Я можу обрати дубліканта і навівши мишою на <link=\"STRESS\">стрес</link> в "
+"його інформаційному вікні, щоб побачити індивідуальні фактори <link=\"STRESS"
+"\">стресу</link> та, сподіваюсь, зменшити їх."
 
 #. STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.NAME"
 msgid "TIP: Stress Management"
-msgstr ""
+msgstr "ПОРАДА: Управління стресом"
 
 #. STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.TOOLTIP"
 msgid "Notes on keeping Duplicants happy and productive"
-msgstr ""
+msgstr "Примітки щодо збереження щастя та продуктивності дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.STRUCTURALCOLLAPSE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRUCTURALCOLLAPSE.NAME"
 msgid "Structural collapse"
-msgstr ""
+msgstr "Структурні руйнування"
 
 #. STRINGS.MISC.NOTIFICATIONS.STRUCTURALCOLLAPSE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRUCTURALCOLLAPSE.TOOLTIP"
 msgid "These buildings have collapsed:"
-msgstr ""
+msgstr "Цю споруду було зруйновано:"
 
 #. STRINGS.MISC.NOTIFICATIONS.STRUCTURALDAMAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRUCTURALDAMAGE.NAME"
 msgid "Structural damage"
-msgstr ""
+msgstr "Структурні пошкодження"
 
 #. STRINGS.MISC.NOTIFICATIONS.STRUCTURALDAMAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRUCTURALDAMAGE.TOOLTIP"
 msgid "These buildings' structural integrity has been compromised"
-msgstr ""
+msgstr "Структурну цілісність цих споруд було порушено"
 
 #. STRINGS.MISC.NOTIFICATIONS.SUIT_DROPPED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUIT_DROPPED.NAME"
 msgid "No Docks available"
-msgstr ""
+msgstr "Доки недоступні"
 
 #. STRINGS.MISC.NOTIFICATIONS.SUIT_DROPPED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUIT_DROPPED.TOOLTIP"
 msgid ""
 "An exosuit was dropped because there were no empty Exosuit Docks available"
 msgstr ""
+"Екзокостюм викинутий, оскільки не було доступних порожніх док-станцій "
+"екзокостюмів"
 
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY"
@@ -27572,16 +27706,27 @@ msgid ""
 "chosen direction, and will unequip their suit when walking back the opposite "
 "way."
 msgstr ""
+"<link=\"EXOSUIT\">Екзокостюми</link> можуть одягатись для захисту моїх "
+"дублікантів від екологічних небезпек, таких як критична <link=\"HEAT"
+"\">спека</link>, заражене <link=\"DISEASE\">мікробами</link> повітря, "
+"непридатний для дихання <link=\"ELEMENTSGAS\">газ</link>. Для того, щоб "
+"використовувати ці костюми, мені необхідно підключити док-станцію "
+"екзокостюмів до контрольно-пропускного пункту, а тоді розмістити один костюм "
+"всередині.\n"
+"\n"
+"Дубліканти будуть обягати екзокостюми, коли ітимуть через контрольно-"
+"пропускний пункт у вказаному напрямку, та зніматимуть їх, коли ітимуть назад "
+"в протилежному напрямку."
 
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.NAME"
 msgid "TIP: Exosuits"
-msgstr ""
+msgstr "ПОРАДА: Екзокостюми"
 
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.TOOLTIP"
 msgid "Notes on using exosuits"
-msgstr ""
+msgstr "Примітки щодо використання екзокостюмів"
 
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.MESSAGEBODY"
@@ -27595,16 +27740,25 @@ msgid ""
 "not perform, or to specialize skilled Duplicants for particular types of "
 "errands."
 msgstr ""
+"Дубліканти завжди виконуватимуть мої доручення в порядку від найбільш до "
+"найменш термінових. Вони, наприклад, будуть збирати <link=\"FOOD\">продукти "
+"харчування</link>перед будівництвом, або завжди будуватимуть нові споруди "
+"перед видобуванням матеріалів.\n"
+"\n"
+"Я можу відкрити <link=\"PRIORITIES\">ВКЛАДКУ ПРІОРИТЕТІВ</link> "
+"<color=#F44A47><b>[J]</b></color> для визначення, які доручення дубліканти "
+"можуть або не можуть виконувати, або для призначення кваліфікованих "
+"дублікантів для конкретних доручень."
 
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME"
 msgid "TIP: Errand Priorities"
-msgstr ""
+msgstr "ПОРАДА: Пріоритет доручень"
 
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.TOOLTIP"
 msgid "Notes on managing Duplicants' priorities"
-msgstr ""
+msgstr "Примітки щодо керування пріоритетами дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.MESSAGEBODY"
@@ -27617,16 +27771,24 @@ msgid ""
 "to view all areas where my Duplicants will feel discomfort and be unable to "
 "regulate their internal body temperature."
 msgstr ""
+"Середовища, які критично <link=\"HEAT\">спекотні</link> або <link=\"HEAT"
+"\">холодні</link> впливають на температуру тіла моїх дублікантів і зайвий "
+"раз <link=\"STRESS\">нервують</link>.\n"
+"\n"
+"СХЕМА ТЕПЛОВОГО КОМФОРТУ <color=#F44A47><b>[F4]</b></color> дозволяє мені "
+"побачити всі території, де мої дубліканти відчувають дискомфорт та не можуть "
+"контролювати температуру їхнього тіла."
 
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME"
 msgid "TIP: Duplicant Temperature"
-msgstr ""
+msgstr "ПОРАДА: Температура дублікантів"
 
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.TOOLTIP
+#, fuzzy
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.TOOLTIP"
 msgid "Notes on helping Duplicants keep their cool"
-msgstr ""
+msgstr "Примітки щодо збереження дублікантами прохолоди"
 
 #. STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.MESSAGEBODY"
@@ -27640,58 +27802,66 @@ msgid ""
 "take damage, and if left untended, they will meltdown be unusable until "
 "repaired."
 msgstr ""
+"При конструюванні споруд мені завжди потрібно пам'ятати про їх <link=\"HEAT"
+"\">температуру перегріву</link> і відповідно планувати розміщення. "
+"Підтримання низької температури повітря та хорошої вентиляції в колонії буде "
+"допомагати охолоджувати споруду.\n"
+"\n"
+"Якщо я дозволю споруді нагрітись до температури перегріву, вона почне "
+"отримувати пошкодження. Якщо це не припинити, то вона почне плавитись і не "
+"працюватиме поки не буде відремонтована."
 
 #. STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.NAME"
 msgid "TIP: Building Temperature"
-msgstr ""
+msgstr "ПОРАДА: Температура споруд"
 
 #. STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.TOOLTIP"
 msgid "Notes on preventing meltdowns"
-msgstr ""
+msgstr "Примітки щодо запобігання розплавленню"
 
 #. STRINGS.MISC.NOTIFICATIONS.UNREACHABLEITEM.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.UNREACHABLEITEM.NAME"
 msgid "Unreachable resources"
-msgstr ""
+msgstr "Недосяжні ресурси"
 
 #. STRINGS.MISC.NOTIFICATIONS.UNREACHABLEITEM.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.UNREACHABLEITEM.TOOLTIP"
 msgid "Duplicants cannot retrieve these resources:"
-msgstr ""
+msgstr "Дубліканти не можуть дістатись до цих ресурсів:"
 
 #. STRINGS.MISC.NOTIFICATIONS.UNREFRIGERATEDFOOD.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.UNREFRIGERATEDFOOD.NAME"
 msgid "Unrefrigerated Food"
-msgstr ""
+msgstr "Неохолоджена їжа"
 
 #. STRINGS.MISC.NOTIFICATIONS.UNREFRIGERATEDFOOD.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.UNREFRIGERATEDFOOD.TOOLTIP"
 msgid ""
 "These <link=\"FOOD\">Food</link> items are in storage but are not "
 "refrigerated:\n"
-msgstr ""
+msgstr "Ця <link=\"FOOD\">їжа</link> в сховищі, але не охолоджується:\n"
 
 #. STRINGS.MISC.NOTIFICATIONS.VENTBLOCKED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.VENTBLOCKED.NAME"
 msgid "Vent blocked"
-msgstr ""
+msgstr "Злив заблоковано"
 
 #. STRINGS.MISC.NOTIFICATIONS.VENTBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.VENTBLOCKED.TOOLTIP"
 msgid "Blocked pipes have stopped these systems from functioning:"
-msgstr ""
+msgstr "Заблоковані труби зупинили роботу цієї системи:"
 
 #. STRINGS.MISC.NOTIFICATIONS.VENTOVERPRESSURE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.VENTOVERPRESSURE.NAME"
 msgid "Vent overpressurized"
-msgstr ""
+msgstr "Злив під високим тиском"
 
 #. STRINGS.MISC.NOTIFICATIONS.VENTOVERPRESSURE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.VENTOVERPRESSURE.TOOLTIP"
 msgid "These pipe systems have exited the ideal pressure range:"
-msgstr ""
+msgstr "Ці системи труб вийшли з ідеального діапазону тиску:"
 
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.MESSAGEBODY"
@@ -27706,16 +27876,25 @@ msgid ""
 "Once I've placed a few errands, my Duplicants should automatically get to "
 "work."
 msgstr ""
+"Дубліканти є вмотивованими та будуть виконувати роботу в колонії без мене, "
+"самостійно.\n"
+"\n"
+"Я можу використати <link=\"TOOLS\">ІНСТРУМЕНТ КОПАННЯ</link> "
+"<color=#F44A47><b>[G]</b></color> і <link=\"MISC\">меню побудови</link> в "
+"нижній лівій частині екрану, щоб почати планування будівництва.\n"
+"\n"
+"Щойно я розміщу декілька доручень, мої дубліканти автоматично візьмуться до "
+"роботи."
 
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME"
 msgid "TIP: Colony Management"
-msgstr ""
+msgstr "ПОРАДА: Управління колонією"
 
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.TOOLTIP"
 msgid "Notes on getting Duplicants to do my bidding"
-msgstr ""
+msgstr "Примітки щодо віддавання дублікантам моїх розпоряджень"
 
 #. STRINGS.MISC.PLACERS.DIGPLACER.NAME
 msgctxt "STRINGS.MISC.PLACERS.DIGPLACER.NAME"
@@ -44216,28 +44395,24 @@ msgid " W"
 msgstr " Вт"
 
 #. STRINGS.UI.UNITSUFFIXES.HEAT.DTU
-#, fuzzy
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.DTU"
 msgid " DTU"
-msgstr " DTU"
+msgstr " ТОД"
 
 #. STRINGS.UI.UNITSUFFIXES.HEAT.DTU_S
-#, fuzzy
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.DTU_S"
 msgid " DTU/s"
-msgstr " DTU/s"
+msgstr " ТОД/с"
 
 #. STRINGS.UI.UNITSUFFIXES.HEAT.KDTU
-#, fuzzy
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.KDTU"
 msgid " kDTU"
-msgstr " kDTU"
+msgstr " кТОД"
 
 #. STRINGS.UI.UNITSUFFIXES.HEAT.KDTU_S
-#, fuzzy
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.KDTU_S"
 msgid " kDTU/s"
-msgstr " kDTU/s"
+msgstr " кТОД/с"
 
 #. STRINGS.UI.UNITSUFFIXES.MASS.DRACHMA
 msgctxt "STRINGS.UI.UNITSUFFIXES.MASS.DRACHMA"

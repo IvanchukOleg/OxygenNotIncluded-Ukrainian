@@ -37430,11 +37430,14 @@ msgid "Cancel"
 msgstr "Скасувати"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONBODY
+#, fuzzy
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONBODY"
 msgid ""
 "The Printing Pod will need time to recharge if I return these Duplicants to "
 "ooze."
 msgstr ""
+"Друкарська станція потребує часу на перезарядку, якщо я повертаю дублікантів "
+"назад в желе."
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE"

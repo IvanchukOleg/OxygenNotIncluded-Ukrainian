@@ -13,6 +13,8 @@ msgstr ""
 "X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-Basepath: ../Old\n"
+"X-Poedit-SearchPath-0: strings.po\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
 msgctxt "STRINGS.BUILDING.DETAILS.USE_COUNT"
@@ -351,8 +353,8 @@ msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN"
 msgid "Automated Checkpoint is on Standby, preventing Duplicants from passing"
 msgstr ""
-"Автоматичний контрольно-пропускний пункт в очікуванні, перешкоджає "
-"проходженню дублікантів"
+"Автоматичний контрольно-пропускний не активний, перешкоджає проходженню "
+"дублікантів"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME"
@@ -3038,7 +3040,7 @@ msgstr "<link=\"AIRBORNECREATURELURE\">Приманка для тварин</lin
 #. STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.DESC"
 msgid "A thermo regulator doesn't remove heat, but relocates it to a new area."
-msgstr ""
+msgstr "Кондиціонер не видаляє тепло, але переносить його в інше місце."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.EFFECT"
@@ -3273,8 +3275,8 @@ msgid ""
 "Logic input will go on <link=\"LOGIC\">Standby</link> when battery is more "
 "than {0}% charged"
 msgstr ""
-"Логічний вихід буде в <link=\"LOGIC\">режимі очікування</link>, коли в "
-"батареях більше, ніж {0}% заряду"
+"Логічний вихід буде <link=\"LOGIC\">не активним</link>, коли в батареях "
+"більше, ніж {0}% заряду"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
@@ -3318,7 +3320,7 @@ msgstr "Активна:"
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_DEACTIVATE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_DEACTIVATE"
 msgid "Standby:"
-msgstr "В режимі очікування:"
+msgstr "Не активна:"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_TITLE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_TITLE"
@@ -3566,8 +3568,7 @@ msgid ""
 msgstr ""
 "Дозволяє Дублікантам проходити, коли <link=\"LOGIC\">активний</link>.\n"
 "\n"
-"Перешкоджає проходженню дублікантів, коли в <link=\"LOGIC\">режимі "
-"очікування</link>."
+"Перешкоджає проходженню дублікантів, коли <link=\"LOGIC\">не активний</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_DESC"
@@ -4315,6 +4316,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.DESC"
 msgid ""
 "Weight plates can be used to turn on amenities only when Duplicants pass by."
 msgstr ""
+"Нажимні плити можуть використовуватись для вмикання зручностей, лише коли "
+"дубліканти проходять повз."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.EFFECT"
@@ -4325,21 +4328,27 @@ msgid ""
 "Cannot be triggered by <link=\"ELEMENTSGAS\">Gas</link> or <link="
 "\"ELEMENTSLIQUID\">Liquids</link>."
 msgstr ""
+"Стає <link=\"LOGIC\">активною</link>, коли об'єкт, або дублікант перебуває "
+"на ній.\n"
+"\n"
+"Не можу перемикатись <link=\"ELEMENTSGAS\">газом</link> або <link="
+"\"ELEMENTSLIQUID\">рідиною</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.LOGIC_PORT_DESC"
 msgid "<link=\"LOGIC\">Active</link>/<link=\"LOGIC\">Inactive</link>"
-msgstr ""
+msgstr "<link=\"LOGIC\">Активна</link>/<link=\"LOGIC\">Не активна</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.NAME"
 msgid "<link=\"FLOORSWITCH\">Weight Plate</link>"
-msgstr ""
+msgstr "<link=\"FLOORSWITCH\">Нажимна плитка</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.DESC"
 msgid "Flower pots allow decorative plants to be moved to new locations."
 msgstr ""
+"Квіткові горщики дозволяють перемістити декоративні рослити на нові місця."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.EFFECT"
@@ -4350,11 +4359,16 @@ msgid ""
 "Houses a single <link=\"PLANTS\">Plant</link> when sown with a <link=\"PLANTS"
 "\">Seed</link>."
 msgstr ""
+"Збільшує <link=\"DECOR\">декор</link> і зменшує <link=\"STRESS\">стрес</"
+"link>.\n"
+"\n"
+"Вирощує одну <link=\"PLANTS\">рослину</link> при посіві <link=\"PLANTS"
+"\">насіння</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.NAME"
 msgid "<link=\"FLOWERVASE\">Flower Pot</link>"
-msgstr ""
+msgstr "<link=\"FLOWERVASE\">Квітковий горщик</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC"
@@ -4362,6 +4376,8 @@ msgid ""
 "Lavatories transmit fewer germs to Duplicants' skin and require no manual "
 "emptying."
 msgstr ""
+"Санвузли переносять менше мікробів на шкіру дублкантів та не вимагають "
+"ручного обслуговування."
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.EFFECT"
@@ -4369,33 +4385,40 @@ msgid ""
 "Gives Duplicants a place to <link=\"HYGIENE\">Hygienically</link> relieve "
 "themselves."
 msgstr ""
+"Надає дублікантам місце, де можна <link=\"HYGIENE\">гігієнічно</link> "
+"задовольнити свої потреби."
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.NAME"
 msgid "<link=\"FLUSHTOILET\">Lavatory</link>"
-msgstr ""
+msgstr "<link=\"FLUSHTOILET\">Санвузол</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.DESC"
 msgid ""
 "A gantry can be built over rocket pieces where tiles and ladders cannot."
 msgstr ""
+"Платформа може бути побудована над частинами ракети, тоді як блоки чи "
+"драбини не можуть."
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.EFFECT"
 msgid "Provides scaffolding across rocket modules to allow Duplicant access."
 msgstr ""
+"Можуть споруджуватись через ракетні модулі, надаючи до них доступ "
+"дублікантам."
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.NAME"
 msgid "<link=\"GANTRY\">Gantry</link>"
-msgstr ""
+msgstr "<link=\"GANTRY\">Платформа</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC"
 msgid ""
 "Canisters allow Duplicants to manually delivery gases from place to place."
 msgstr ""
+"Каністри дозволяють дублікантам вручну переносити гази з місця на місце."
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.EFFECT"
@@ -4403,11 +4426,13 @@ msgid ""
 "Automatically stores piped <link=\"ELEMENTSGAS\">Gases</link> into canisters "
 "for manual transport."
 msgstr ""
+"Автоматично зберігає <link=\"ELEMENTSGAS\">гази</link> із труб в каністри "
+"для ручного транспортування."
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME"
 msgid "<link=\"GASBOTTLER\">Canister Filler</link>"
-msgstr ""
+msgstr "<link=\"GASBOTTLER\">Наповнювач каністр</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC"
@@ -4415,6 +4440,8 @@ msgid ""
 "Duplicants will fill cargo canisters with whatever resources they find "
 "during their space missions."
 msgstr ""
+"Дубліканти будуть заповнювати газові резервуари ресурсами, які вони знайдуть "
+"під час космічної місії."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.EFFECT"
@@ -4424,17 +4451,23 @@ msgid ""
 "\n"
 "Stored resources become available to the colony upon the rocket's return."
 msgstr ""
+"Дозволяє дублікантам зберігати будь-які <link=\"ELEMENTSGAS\">гази</link>, "
+"знайдені під час космічних місій.\n"
+"\n"
+"Збережені ресурси будуть доступні для колонії після повернення ракети."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.NAME"
 msgid "<link=\"GASCARGOBAY\">Gas Cargo Canister</link>"
-msgstr ""
+msgstr "<link=\"GASCARGOBAY\">Газовий резервуар</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.DESC"
 msgid ""
 "Gas pipes are used to connect the inputs and outputs of ventilated buildings."
 msgstr ""
+"Газові труби використовуються для з'єднання входів і виходів у провітрюваних "
+"спорудах."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.EFFECT"
@@ -4444,17 +4477,22 @@ msgid ""
 "\n"
 "Can be run through tiles."
 msgstr ""
+"Передає <link=\"ELEMENTSGAS\">газ</link> між <link=\"GASPIPING\">виходами</"
+"link> та <link=\"GASPIPING\">входами</link>.\n"
+"\n"
+"Може бути проведена крізь блоки."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.NAME"
 msgid "<link=\"GASCONDUIT\">Gas Pipe</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUIT\">Газова труба</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.DESC"
 msgid ""
 "Separate pipe systems prevent mingled contents from causing building damage."
 msgstr ""
+"Розділення систем труб запобігає пошкодженню труб від змішаного вмісту."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.EFFECT"
@@ -4464,11 +4502,15 @@ msgid ""
 "\n"
 "Can be run through tiles."
 msgstr ""
+"Проводить одну <link=\"GASPIPING\">газову трубу</link> поверх іншої без "
+"з'єднання їх.\n"
+"\n"
+"Може проходити крізь блоки."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.NAME"
 msgid "<link=\"GASCONDUITBRIDGE\">Gas Bridge</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITBRIDGE\">Газовий міст</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.DESC"
@@ -4476,6 +4518,8 @@ msgid ""
 "Gas Pipe Germ Sensors are used to control automation behaviour in the "
 "presence of disease."
 msgstr ""
+"Сенсори бактерій газових труб використовуються для автоматичного контролю "
+"запобігання захворюванням."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.EFFECT"
@@ -4483,16 +4527,18 @@ msgid ""
 "Becomes<link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</link> "
 "depending on quantity of the contained <link=\"DISEASE\">Germs</link>."
 msgstr ""
+"Стає <link=\"LOGIC\">активним</link> або <link=\"LOGIC\">не активним</link>, "
+"залежно від кількості <link=\"DISEASE\">мікробів</link> всередині."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT_DESC"
 msgid "Active/Standby based on the contained Germs"
-msgstr ""
+msgstr "Активний/не активний, залежно від вмісту мікробів"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.NAME"
 msgid "<link=\"GASCONDUITDISEASESENSOR\">Gas Pipe Germ Sensor</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITDISEASESENSOR\">Сенсор бактерій газової труби</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC"
@@ -4500,6 +4546,8 @@ msgid ""
 "Gas Pipe Element Sensors can be used to detect the presence of a specific "
 "gas in a pipe"
 msgstr ""
+"Сенсор елемента газової труби може бути використаний для визначення "
+"наявності в трубі конкретного газу"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
@@ -4507,16 +4555,17 @@ msgid ""
 "Becomes <link=\"LOGIC\">Active</link> when the configured Gas Element is "
 "detected."
 msgstr ""
+"Стає <link=\"LOGIC\">активним</link>, коли вибраний елемент газу виявлено."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_DESC"
 msgid "Active/Standby based on the contained Gas"
-msgstr ""
+msgstr "Активний/не активний, залежно від вмісту газу"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.NAME"
 msgid "<link=\"LOGICELEMENTSENSORGAS\">Gas Pipe Element Sensor</link>"
-msgstr ""
+msgstr "<link=\"LOGICELEMENTSENSORGAS\">Сенсор елемента газової труби</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC"
@@ -4524,6 +4573,8 @@ msgid ""
 "Overflow valves can be used to prioritize which buildings should receive "
 "precious resources first."
 msgstr ""
+"Розподільний вентиль може використовуватись для встановлення пріоритету "
+"спорудам, які мають отримувати цінні ресурси першими."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.EFFECT"
@@ -4531,11 +4582,14 @@ msgid ""
 "Fills a secondary<link=\"ELEMENTSGAS\">Gas</link> output only when its "
 "primary output is blocked."
 msgstr ""
+"Подає газ на другий <link=\"ELEMENTSGAS\">газовий</link> вихід лише тоді, "
+"коли основний заблоковано."
 
+# Переклад доволі вільний, але базується на тому, що має робити цей клапан.
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.NAME"
 msgid "<link=\"GASCONDUITOVERFLOW\">Gas Overflow Valve</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITOVERFLOW\">Розподільний газовий вентиль</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.DESC"
@@ -4543,6 +4597,8 @@ msgid ""
 "Priority flows ensure important buildings are filled first when on a system "
 "with other buildings."
 msgstr ""
+"Пріоритетні потоки забезпечують постачання спочатку до важливих споруд, коли "
+"в системі є і інші споруди."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.EFFECT"
@@ -4550,11 +4606,13 @@ msgid ""
 "Diverts <link=\"ELEMENTSGAS\">Gas</link> to a secondary input when its "
 "primary input overflows."
 msgstr ""
+"Подає <link=\"ELEMENTSGAS\">газ</link> на другий вхід, коли основний "
+"перевантажено."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.NAME"
 msgid "<link=\"GASCONDUITPREFERENTIALFLOW\">Priority Gas Flow</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITPREFERENTIALFLOW\">Пріоритетний газовий потік</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC"
@@ -4562,6 +4620,8 @@ msgid ""
 "Radiant pipes pumping cold gas can be run through hot areas to help cool "
 "them down."
 msgstr ""
+"Блискучі труби, які качають холодний газ, можна пропустити через гарячі "
+"території, щоб охолодити їх."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT"
@@ -4571,11 +4631,15 @@ msgid ""
 "\n"
 "Can be run through tiles."
 msgstr ""
+"Подає <link=\"ELEMENTSGAS\">газ</link>, забезпечуючи надзвичайний <link="
+"\"HEAT\">теплообмін</link> з навколишнім середовищем.\n"
+"\n"
+"Може проходити крізь блоки."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.NAME"
 msgid "<link=\"GASCONDUITRADIANT\">Radiant Gas Pipe</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITRADIANT\">Блискуча газова труба</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC"
@@ -4583,6 +4647,8 @@ msgid ""
 "Gas Pipe Thermo Sensors can disable buildings when contents reach a certain "
 "temperature."
 msgstr ""
+"Термосенсор газової труби може вимикати споруди, коли вміст досягає певної "
+"температури."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT"
@@ -4591,6 +4657,9 @@ msgid ""
 "when the pipe contents <link=\"HEAT\">Temperature</link> enters the chosen "
 "range."
 msgstr ""
+"Стає <link=\"LOGIC\">активний</link>, або <link=\"LOGIC\">не активним</"
+"link>, коли труби містять <link=\"HEAT\">температуру</link>, яка входить у "
+"вказаний діапазон значень."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_DESC"
@@ -4598,11 +4667,13 @@ msgid ""
 "Active/Standby based on the <link=\"HEAT\">Temperature</link> of the "
 "contained Gas"
 msgstr ""
+"Активний/не активний, на основі <link=\"HEAT\">температури</link> газу "
+"всередині"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME"
 msgid "<link=\"GASCONDUITTEMPERATURESENSOR\">Gas Pipe Thermo Sensor</link>"
-msgstr ""
+msgstr "<link=\"GASCONDUITTEMPERATURESENSOR\">Термосенсор газової труби</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.DESC"
@@ -4610,6 +4681,8 @@ msgid ""
 "Gas filters send the selected filter gas into a special pipe, expelling "
 "everything else through a second output."
 msgstr ""
+"Газові фільтри надсилають вибраний газ в спеціальну трубу, випускаючи все "
+"інше в другий вихід."
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT"
@@ -4617,21 +4690,23 @@ msgid ""
 "Sieves one <link=\"ELEMENTSGAS\">Gas</link> from the air, sending it into a "
 "dedicated <link=\"GASPIPING\">Pipe</link>."
 msgstr ""
+"Відвільтровує один <link=\"ELEMENTSGAS\">газ</link> з повітря, надсилаючи "
+"його у відповідну <link=\"GASPIPING\">трубу</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED"
 msgid "Not Specified"
-msgstr ""
+msgstr "Не налаштовано"
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.NAME"
 msgid "<link=\"GASFILTER\">Gas Filter</link>"
-msgstr ""
+msgstr "<link=\"GASFILTER\">Газовий фільтр</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.STATUS_ITEM
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.STATUS_ITEM"
 msgid "Filters: {0}"
-msgstr ""
+msgstr "Фільтри: {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC"
@@ -4639,6 +4714,8 @@ msgid ""
 "Automated piping saves time and resources by removing the need for Duplicant "
 "management."
 msgstr ""
+"Автоматизовані трубопроводи заощаджують час і ресурси, прибираючи потребу в "
+"управлінні дублікантом."
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT"
@@ -4646,11 +4723,13 @@ msgid ""
 "Automatically turns <link=\"ELEMENTSGAS\">Gas</link> flow on or off using "
 "<link=\"LOGIC\">Automation</link> technology."
 msgstr ""
+"Автоматично вмикає, або вимикає <link=\"ELEMENTSGAS\">газовий</link> потік "
+"на основі технології <link=\"LOGIC\"> автоматизації</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME"
 msgid "<link=\"GASLOGICVALVE\">Gas Shutoff</link>"
-msgstr ""
+msgstr "<link=\"GASLOGICVALVE\">Газовий автоклапан</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.DESC"
@@ -4658,6 +4737,8 @@ msgid ""
 "Mini pumps are useful for moving small quantities of gas with minimum power "
 "draw."
 msgstr ""
+"Малі насоси корисні для руху невеликої кількості газу з малими затратами "
+"енергії."
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.EFFECT"
@@ -4667,11 +4748,15 @@ msgid ""
 "\n"
 "Must be immersed in gas."
 msgstr ""
+"Всмоктує невелику кількість <link=\"ELEMENTSGAS\">газу</link>, пропускаючи "
+"його в <link=\"GASPIPING\">труби</link>.\n"
+"\n"
+"Повинен бути занурений в газ."
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.NAME"
 msgid "<link=\"GASPUMP\">Mini Gas Pump</link>"
-msgstr ""
+msgstr "<link=\"GASPUMP\">Малий газовий насос</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.DESC"
@@ -4679,6 +4764,8 @@ msgid ""
 "Building with airflow permeable tiles promotes better gas circulation within "
 "a colony."
 msgstr ""
+"Будівництво з використанням газопроникних блоків сприяє кращій циркуляції "
+"газу в колонії."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.EFFECT"
@@ -4688,11 +4775,15 @@ msgid ""
 "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> flow without obstructing <link="
 "\"ELEMENTSGAS\">Gas</link>."
 msgstr ""
+"Використовується як блок стін і підлоги для побудови кімнат.\n"
+"\n"
+"Блокує потік <link=\"ELEMENTSLIQUID\">підини</link>, але пропускає <link="
+"\"ELEMENTSGAS\">газ</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.NAME"
 msgid "<link=\"GASPERMEABLEMEMBRANE\">Airflow Tile</link>"
-msgstr ""
+msgstr "<link=\"GASPERMEABLEMEMBRANE\">Газопроникний блок</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.DESC"
@@ -4700,6 +4791,8 @@ msgid ""
 "Piping a pump's intake to another building's output will send gas to that "
 "building."
 msgstr ""
+"Трубопровід, який з'єднує вихідну трубу із входом іншої споруди буде "
+"подавати газ цій споруді."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT"
@@ -4709,32 +4802,39 @@ msgid ""
 "\n"
 "Must be immersed in gas."
 msgstr ""
+"Всмоктує <link=\"ELEMENTSGAS\">газ</link>, подаючи його всередину <link="
+"\"GASPIPING\">труб</link>.\n"
+"\n"
+"Має бути занурений в газ."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.NAME"
 msgid "<link=\"GASPUMP\">Gas Pump</link>"
-msgstr ""
+msgstr "<link=\"GASPUMP\">Газовий насос</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.DESC"
 msgid "Stores <link=\"ELEMENTSGAS\">Gas</link>."
-msgstr ""
+msgstr "Зберігає <link=\"ELEMENTSGAS\">газ</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.EFFECT"
 msgid "Stores the <link=\"ELEMENTSGAS\">Gas</link> resources of your choosing."
-msgstr ""
+msgstr "Зберігає <link=\"ELEMENTSGAS\">газ</link>, відповідно до вибору."
 
 #. STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.NAME"
 msgid "<link=\"GASRESERVOIR\">Gas Reservoir</link>"
-msgstr ""
+msgstr "<link=\"GASRESERVOIR\">Газовий резервуар</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASVALVE.DESC
+#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.DESC"
 msgid ""
 "Valves control the amount of gas that moves through pipes, preventing waste."
 msgstr ""
+"Клапани контролюють кількість газу, яка рухається в трубах, запобігаючи "
+"надлишку."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.EFFECT"
@@ -4742,11 +4842,13 @@ msgid ""
 "Controls the <link=\"ELEMENTSGAS\">Gas</link> volume permitted through <link="
 "\"GASPIPING\">Pipes</link>."
 msgstr ""
+"Контролює тиск <link=\"ELEMENTSGAS\">газу</link>, який проходить через <link="
+"\"GASPIPING\">труби</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME"
 msgid "<link=\"GASVALVE\">Gas Valve</link>"
-msgstr ""
+msgstr "<link=\"GASVALVE\">Газовий клапан</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.DESC"
@@ -4763,7 +4865,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GASVENT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.NAME"
 msgid "<link=\"GASVENT\">Gas Vent</link>"
-msgstr ""
+msgstr "<link=\"GASVENT\">Газовідвід</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.DESC"
@@ -4782,7 +4884,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.NAME"
 msgid "<link=\"GASVENTHIGHPRESSURE\">High Pressure Gas Vent</link>"
-msgstr ""
+msgstr "<link=\"GASVENTHIGHPRESSURE\">Газовідвід високого тиску</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.DESC"
@@ -4803,7 +4905,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.NAME"
 msgid "<link=\"GENERATOR\">Coal Generator</link>"
-msgstr ""
+msgstr "<link=\"GENERATOR\">Вугільний генератор</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.OVERPRODUCTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.OVERPRODUCTION"
@@ -4859,7 +4961,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.NAME"
 msgid "<link=\"GLASSFORGE\">Glass Forge</link>"
-msgstr ""
+msgstr "<link=\"GLASSFORGE\">Плавильня скла</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.RECIPE_DESCRIPTION"
@@ -4885,7 +4987,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GLASSTILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.NAME"
 msgid "<link=\"GLASSTILE\">Window Tile</link>"
-msgstr ""
+msgstr "<link=\"GLASSTILE\">Віконний блок</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GRAVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVE.DESC"
@@ -4904,7 +5006,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GRAVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVE.NAME"
 msgid "<link=\"GRAVE\">Tasteful Memorial</link>"
-msgstr ""
+msgstr "<link=\"GRAVE\">Стильний надгробок</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.DESC"
@@ -4923,7 +5025,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.NAME"
 msgid "<link=\"HANDSANITIZER\">Hand Sanitizer</link>"
-msgstr ""
+msgstr "<link=\"HANDSANITIZER\">Дезінфектор рук</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.DESC"
@@ -4943,12 +5045,12 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.NAME"
 msgid "<link=\"HEADQUARTERS\">Printing Pod</link>"
-msgstr ""
+msgstr "<link=\"HEADQUARTERS\">Друкарська станція</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HEADQUARTERSCOMPLETE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERSCOMPLETE.NAME"
 msgid "Printing Pod"
-msgstr ""
+msgstr "Друкарська станція"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.DESC"
@@ -4969,7 +5071,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.NAME"
 msgid "<link=\"HIGHWATTAGEWIRE\">Heavi-Watt Wire</link>"
-msgstr ""
+msgstr "<link=\"HIGHWATTAGEWIRE\">Високовольтний дріт</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROGENGENERATOR.DESC"
@@ -4988,7 +5090,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROGENGENERATOR.NAME"
 msgid "<link=\"HYDROGENGENERATOR\">Hydrogen Generator</link>"
-msgstr ""
+msgstr "<link=\"HYDROGENGENERATOR\">Водневий генератор</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.DESC"
@@ -5011,7 +5113,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.NAME"
 msgid "<link=\"HYDROPONICFARM\">Hydroponic Farm</link>"
-msgstr ""
+msgstr "<link=\"HYDROPONICFARM\">Гідропонна ферма</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
@@ -5035,7 +5137,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.NAME"
 msgid "<link=\"ICESCULPTURE\">Ice Block</link>"
-msgstr ""
+msgstr "<link=\"ICESCULPTURE\">Льодяний блок</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.POORQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.POORQUALITYNAME"
@@ -5061,7 +5163,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.NAME"
 msgid "<link=\"INSULATEDGASCONDUIT\">Insulated Gas Pipe</link>"
-msgstr ""
+msgstr "<link=\"INSULATEDGASCONDUIT\">Ізольована газова труба</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.DESC"
@@ -5082,7 +5184,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.NAME"
 msgid "<link=\"INSULATEDLIQUIDCONDUIT\">Insulated Liquid Pipe</link>"
-msgstr ""
+msgstr "<link=\"INSULATEDLIQUIDCONDUIT\">Ізольована рідинна труба</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDWIRE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDWIRE.DESC"
@@ -5122,7 +5224,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.INSULATIONTILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONTILE.NAME"
 msgid "<link=\"INSULATIONTILE\">Insulated Tile</link>"
-msgstr ""
+msgstr "<link=\"INSULATIONTILE\">Ізоляційний блок</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.DESC"
@@ -5144,7 +5246,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.NAME"
 msgid "<link=\"KEROSENEENGINE\">Petroleum Rocket Engine</link>"
-msgstr ""
+msgstr "<link=\"KEROSENEENGINE\">Нафтовий ракетний двигун</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.DESC"
@@ -5160,7 +5262,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.KILN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.NAME"
 msgid "<link=\"KILN\">Kiln</link>"
-msgstr ""
+msgstr "<link=\"KILN\">Піч</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LADDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LADDER.DESC"
@@ -5215,7 +5317,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.NAME"
 msgid "<link=\"LIQUIDCARGOBAY\">Liquid Cargo Tank</link>"
-msgstr ""
+msgstr "<link=\"LIQUIDCARGOBAY\">Резервуар рідини</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.DESC"
@@ -5232,7 +5334,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.NAME"
 msgid "<link=\"LIQUIDCONDITIONER\">Thermo Aquatuner</link>"
-msgstr ""
+msgstr "<link=\"LIQUIDCONDITIONER\">Рідинний охолоджувач</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.DESC"
@@ -5252,7 +5354,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
 msgid "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
-msgstr ""
+msgstr "<link=\"LIQUIDCONDUIT\">Рідинна труба</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.DESC"
@@ -5272,7 +5374,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.NAME"
 msgid "<link=\"LIQUIDCONDUITBRIDGE\">Liquid Bridge</link>"
-msgstr ""
+msgstr "<link=\"LIQUIDCONDUITBRIDGE\">Рідинний міст</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.DESC"
@@ -5297,6 +5399,7 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.NAME"
 msgid "<link=\"LIQUIDCONDUITDISEASESENSOR\">Liquid Pipe Germ Sensor</link>"
 msgstr ""
+"<link=\"LIQUIDCONDUITDISEASESENSOR\">Сенсор бактерій рідинної труби</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.DESC"
@@ -5321,6 +5424,7 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.NAME"
 msgid "<link=\"LOGICELEMENTSENSORLIQUID\">Liquid Pipe Element Sensor</link>"
 msgstr ""
+"<link=\"LOGICELEMENTSENSORLIQUID\">Сенсор елемента рідинної труби</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC"
@@ -5379,7 +5483,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.NAME"
 msgid "<link=\"LIQUIDCONDUITRADIANT\">Radiant Liquid Pipe</link>"
-msgstr ""
+msgstr "<link=\"LIQUIDCONDUITRADIANT\">Блискуча рідинна труба</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.DESC"
@@ -5409,6 +5513,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.NAME"
 msgid ""
 "<link=\"LIQUIDCONDUITTEMPERATURESENSOR\">Liquid Pipe Thermo Sensor</link>"
 msgstr ""
+"<link=\"LIQUIDCONDUITTEMPERATURESENSOR\">Термосенсор рідинної труби</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCOOLEDFAN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCOOLEDFAN.DESC"
@@ -38790,12 +38895,10 @@ msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.CONSUMER"
 msgid "Output Pipe"
 msgstr "Вихідна труба"
 
-# Переглянути переклад з входами/виходами
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_AFTER_ARROW
-#, fuzzy
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_AFTER_ARROW"
 msgid "<b>Building Intake</b>"
-msgstr "<b>Вхід приміщення</b>"
+msgstr "<b>Вхід споруди</b>"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_BEFORE_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_BEFORE_ARROW"
@@ -38825,7 +38928,7 @@ msgstr "Газова мережа {0}"
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.PRODUCER
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.PRODUCER"
 msgid "Building Intake"
-msgstr "Вхід приміщення"
+msgstr "Вхід споруди"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONNECTED"
@@ -38876,8 +38979,8 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <link=\"GASPIPING\">Output</link>"
 msgstr ""
-"<b>Вхід приміщення</b>\n"
-"Входи закачують газ в приміщення\n"
+"<b>Вхід споруди</b>\n"
+"Входи закачують газ в споруди\n"
 "------------------\n"
 "Має бути в мережі з принаймні одним <link=\"GASPIPING\">виходом</link>"
 
@@ -39263,12 +39366,12 @@ msgstr ""
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO"
 msgid "<b>Standby</b>This port is currently on standby"
-msgstr "<b>В режимі очікування</b> Цей порт зараз в очікуванні"
+msgstr "<b>Не активний</b> Цей порт зараз в очікуванні"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
 msgid "Standby"
-msgstr "В режимі очікування"
+msgstr "Не активний"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.BUTTON"
